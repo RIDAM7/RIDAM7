@@ -29,7 +29,7 @@ A full-stack SaaS-style application built for small shops.
 - Role-based access (demo & owner)
 - Deployed on Vercel + Railway
 
-🔗 Live Demo: https://easinvy.vercel.app/login 
+🔗 Live Demo: (https://www.easinvy.com/login) 
 - email: demo@easinvy.com
 - password: demo12345
 
