@@ -1,16 +1,53 @@
-## Hi there 👋
+## Hi, I'm Ridam 👋
 
-<!--
-**RIDAM7/RIDAM7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a full-stack developer who builds practical web applications
+for small businesses using React, Node.js, and MongoDB.
 
-Here are some ideas to get you started:
+I focus on:
+- Inventory & billing systems
+- Business dashboards
+- Secure authentication
+- Real-world deployments
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Featured Project
+
+### EasInvy – Inventory & Billing System
+A full-stack SaaS-style application built for small shops.
+
+**Tech Stack**
+- React + Vite
+- Node.js + Express
+- MongoDB
+- JWT Authentication
+
+**Features**
+- Inventory & stock management
+- Categories, items, vehicles
+- Billing & invoice generation
+- Role-based access (demo & owner)
+- Deployed on Vercel + Railway
+
+🔗 Live Demo: https://easinvy.vercel.app/login 
+- email: demo@easinvy.com
+- password: demo12345
+
+🔗 GitHub Repo: https://github.com/RIDAM7/EasInvy-demo
+
+---
+
+## 🛠 Skills
+- JavaScript (ES6+)
+- React
+- Node.js
+- Express
+- MongoDB
+- REST APIs
+- Deployment (Vercel, Railway)
+
+---
+
+## 📫 Contact
+- Email: ridam6419r@gmail.com
+- LinkedIn: https://linkedin.com/in/your-profile
