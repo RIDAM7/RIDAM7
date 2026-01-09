@@ -50,4 +50,4 @@ A full-stack SaaS-style application built for small shops.
 
 ## 📫 Contact
 - Email: ridam6419r@gmail.com
-- LinkedIn: https://linkedin.com/in/your-profile
+- LinkedIn: www.linkedin.com/in/ridam-agrawal-928b61177
