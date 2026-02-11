@@ -57,7 +57,7 @@ A complete esports website built and deployed independently for a large competit
 - Admin-only internal dashboards
 - Deployment and ongoing updates
 
-🔗 **Live Site**: (https://www.blackravenesports.com/)
+🔗 **Live Site**: (https://www.blackravenesports.com)
 
 ---
 
