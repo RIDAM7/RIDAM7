@@ -57,7 +57,7 @@ A complete esports website built and deployed independently for a large competit
 - Admin-only internal dashboards
 - Deployment and ongoing updates
 
-🔗 **Live Site**: https://black-raven-chi.vercel.app/
+🔗 **Live Site**: (https://www.blackravenesports.com/)
 
 ---
 
