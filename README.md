@@ -18,6 +18,7 @@ Currently shipping **GEOai** — an AI-powered platform for Generative Engine Op
 
 ### 🧩 Selected work
 
+- **Local Coding Agent (localcli)** — Local-first, offline coding agent on Ollama with optional per-role cloud LLM routing · Python, Tree-sitter, Ripgrep, Claude API
 - **GEOai** — Multi-agent GEO/SEO platform · Next.js 14, Claude/OpenAI/Gemini, Pinecone RAG, PostgreSQL, Redis, BullMQ
 - **EasInvy** — Multi-tenant inventory & billing SaaS · Next.js, Node/Express, MongoDB, PDF invoicing, WhatsApp integration
 - **MasterChef Platform** — Backend + admin console for a 350K+ user platform · Node/Express/MongoDB, AWS S3/SES, Firebase
@@ -25,7 +26,7 @@ Currently shipping **GEOai** — an AI-powered platform for Generative Engine Op
 
 ### 🛠️ Tech stack
 
-**Languages:** TypeScript, JavaScript, SQL
+**Languages:** TypeScript, JavaScript, Python, SQL
 **Backend:** Node.js, Express.js, REST APIs, BullMQ, Redis
 **Frontend:** React.js, Next.js, Tailwind CSS
 **Databases:** MongoDB, Mongoose, PostgreSQL, Pinecone
