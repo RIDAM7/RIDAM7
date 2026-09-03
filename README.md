@@ -22,7 +22,6 @@ Alongside it, the platform the work runs on — keyword research, rank tracking,
 ### 🧩 Selected work
 
 - **Easinvy** — SEO & GEO firm and its marketing site · Astro, zero client-side JS, 100/100/100/100 Lighthouse, schema-driven entity graph
-- **Local Coding Agent (localcli)** — Local-first, offline coding agent on Ollama with optional per-role cloud LLM routing · Python, Tree-sitter, Ripgrep, Claude API
 - **MasterChef Platform** — Backend + admin console for a 350K+ user platform · Node/Express/MongoDB, AWS S3/SES, Firebase
 - **Black Raven Esports** — Backend for a 30K+ member esports community · Discord/Google OAuth, RBAC, audit logging
 
