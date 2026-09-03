@@ -39,5 +39,6 @@ Alongside it, the platform the work runs on — keyword research, rank tracking,
 ### 📫 Reach me
 
 - Website: [easinvy.com](https://easinvy.com)
+- Easinvy enquiries: hello@easinvy.com
 - Email: ridam6419r@gmail.com
 - LinkedIn: [ridam-agrawal-a5b6763ab](https://linkedin.com/in/ridam-agrawal-a5b6763ab)
