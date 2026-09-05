@@ -6,7 +6,7 @@ Building AI-powered products on a strong backend and system-design foundation �
 </p>
 
 <p align="center">
-<a href="https://easinvy.com"><img src="https://img.shields.io/badge/Easinvy-ff5c1f?style=flat&logoColor=white"></a>
+<a href="https://elivateseo.com"><img src="https://img.shields.io/badge/Elivate SEO-ff5c1f?style=flat&logoColor=white"></a>
 <a href="https://linkedin.com/in/ridam-agrawal-a5b6763ab"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
 <a href="mailto:ridam6419r@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
 </p>
@@ -38,7 +38,7 @@ Alongside it, the platform the work runs on — keyword research, rank tracking,
 
 ### 📫 Reach me
 
-- Website: [easinvy.com](https://easinvy.com)
-- Easinvy enquiries: hello@easinvy.com
+- Website: [elivateseo.com](https://elivateseo.com)
+- Easinvy enquiries: hello@elivateseo.com
 - Email: ridam6419r@gmail.com
 - LinkedIn: [ridam-agrawal-a5b6763ab](https://linkedin.com/in/ridam-agrawal-a5b6763ab)
