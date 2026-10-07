@@ -1,0 +1,812 @@
+{
+  "exportedFrom": "RIDAM7/Portfolio scripts/export-github-profile.mjs",
+  "name": "Ridam Agrawal",
+  "location": "Indore, India",
+  "site": "https://ridamagrawal.com",
+  "email": "ridam6419r@gmail.com",
+  "resume": "https://ridamagrawal.com/Ridam_Agrawal_Resume.pdf",
+  "profiles": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ridam-agrawal-a5b6763ab/"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/RIDAM_N7"
+    }
+  ],
+  "long": "Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO and GEO firm.",
+  "headlineStats": [
+    {
+      "value": "350K+",
+      "label": "Users migrated, zero downtime"
+    },
+    {
+      "value": "23",
+      "label": "AI agents in one pipeline"
+    },
+    {
+      "value": "57",
+      "label": "Backend services shipped"
+    },
+    {
+      "value": "3",
+      "label": "Production systems, sole engineer"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "ai-seo-geo-platform",
+      "title": "AI SEO & GEO Platform",
+      "file": "ai-seo-geo-platform.ts",
+      "status": "In production",
+      "line": "A multi-tenant SaaS I architected and built as the only engineer. 23 AI agents span crawling, keyword discovery, research, writing, optimization and publishing, coordinated by a queue-backed orchestrator across 57 services.",
+      "stats": [
+        {
+          "value": "37",
+          "label": "API modules"
+        },
+        {
+          "value": "57",
+          "label": "Services"
+        },
+        {
+          "value": "75",
+          "label": "Console screens"
+        },
+        {
+          "value": "5",
+          "label": "CMS integrations"
+        }
+      ],
+      "stack": [
+        {
+          "label": "TypeScript",
+          "abbr": "TS",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Node.js",
+          "abbr": "N",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "PostgreSQL",
+          "abbr": "PG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Redis",
+          "abbr": "RD",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "BullMQ",
+          "abbr": "BQ",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Pinecone",
+          "abbr": "PC",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Next.js",
+          "abbr": "NX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Playwright",
+          "abbr": "PW",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": null,
+      "href": null,
+      "hrefLabel": null,
+      "link": "https://ridamagrawal.com/#ai-seo-geo-platform"
+    },
+    {
+      "slug": "elivate-seo-audit",
+      "title": "Elivate SEO Audit Tool",
+      "file": "elivate-seo-audit.astro",
+      "status": null,
+      "line": "Type a domain and it reads the site the way a crawler does, then returns a specific fix per finding instead of a score. It fetches whatever URL a stranger types, so the fetcher is an SSRF guard first, and every redirect hop is checked again.",
+      "stats": [
+        {
+          "value": "7",
+          "label": "Areas checked"
+        },
+        {
+          "value": "58",
+          "label": "Tests"
+        },
+        {
+          "value": "0",
+          "label": "Model or paid API calls"
+        }
+      ],
+      "stack": [
+        {
+          "label": "Astro",
+          "abbr": "AS",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "TypeScript",
+          "abbr": "TS",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Node.js",
+          "abbr": "N",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "PostgreSQL",
+          "abbr": "PG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Railway",
+          "abbr": "RW",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "Astro",
+        "version": "7.2.10"
+      },
+      "href": "https://elivateseo.com/audit",
+      "hrefLabel": "Live",
+      "link": "https://elivateseo.com/audit"
+    },
+    {
+      "slug": "easinvy-retail",
+      "title": "Easinvy Retail",
+      "file": "easinvy-retail.tsx",
+      "status": null,
+      "line": "GST billing and inventory for small Indian shops: bills, stock, purchases, suppliers, staff attendance and Razorpay subscriptions in one system. Designed for a phone held one-handed at a counter, so every number is the most legible thing on the screen.",
+      "stats": [
+        {
+          "value": "22",
+          "label": "Screens"
+        },
+        {
+          "value": "62",
+          "label": "Route modules"
+        },
+        {
+          "value": "27",
+          "label": "Data models"
+        },
+        {
+          "value": "12",
+          "label": "Self-tests"
+        }
+      ],
+      "stack": [
+        {
+          "label": "Next.js 16",
+          "abbr": "NX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "React 19",
+          "abbr": "RC",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Tailwind CSS 4",
+          "abbr": "TW",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Drizzle",
+          "abbr": "DZ",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "PostgreSQL",
+          "abbr": "PG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Razorpay",
+          "abbr": "RZ",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "PDFKit",
+          "abbr": "PK",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "Next.js",
+        "version": "16.1.6"
+      },
+      "href": "https://easinvy.com/saas",
+      "hrefLabel": "Live",
+      "link": "https://easinvy.com/saas"
+    },
+    {
+      "slug": "masterchef",
+      "title": "MasterChef — Live Competition App",
+      "file": "masterchef.ts",
+      "status": null,
+      "line": "The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime.",
+      "stats": [
+        {
+          "value": "350K+",
+          "label": "Records migrated"
+        },
+        {
+          "value": "68",
+          "label": "Data models"
+        },
+        {
+          "value": "41",
+          "label": "Admin screens"
+        },
+        {
+          "value": "30",
+          "label": "Route modules"
+        }
+      ],
+      "stack": [
+        {
+          "label": "Node.js",
+          "abbr": "N",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "MongoDB",
+          "abbr": "MG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "WebSockets",
+          "abbr": "WS",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "React",
+          "abbr": "RC",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Capacitor",
+          "abbr": "CP",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "AWS S3 / SES",
+          "abbr": "S3",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Mux",
+          "abbr": "MX",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Firebase",
+          "abbr": "FB",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "Express",
+        "version": "4.21.2"
+      },
+      "href": "https://www.masterchefworld.app",
+      "hrefLabel": "Live",
+      "link": "https://www.masterchefworld.app"
+    },
+    {
+      "slug": "phasedesk",
+      "title": "PhaseDesk — Team Operations",
+      "file": "phasedesk.tsx",
+      "status": null,
+      "line": "An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models.",
+      "stats": [
+        {
+          "value": "21",
+          "label": "Screens"
+        },
+        {
+          "value": "13",
+          "label": "Data models"
+        },
+        {
+          "value": "2",
+          "label": "Applications"
+        }
+      ],
+      "stack": [
+        {
+          "label": "Next.js 14",
+          "abbr": "NX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Prisma",
+          "abbr": "PR",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "PostgreSQL",
+          "abbr": "PG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Zod",
+          "abbr": "ZD",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "JWT",
+          "abbr": "JW",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "Next.js",
+        "version": "14.2.15"
+      },
+      "href": "https://phasedesk.in",
+      "hrefLabel": "Live",
+      "link": "https://phasedesk.in"
+    },
+    {
+      "slug": "serp-reader",
+      "title": "SERP Reader",
+      "file": "serp-reader.ts",
+      "status": "Open source",
+      "line": "A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node.",
+      "stats": [],
+      "stack": [
+        {
+          "label": "TypeScript",
+          "abbr": "TS",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Chrome MV3",
+          "abbr": "MV",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "IndexedDB",
+          "abbr": "IX",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "esbuild",
+          "abbr": "ES",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "esbuild",
+        "version": "0.25.0"
+      },
+      "href": "https://github.com/RIDAM7/SERP-Reader",
+      "hrefLabel": "Source",
+      "link": "https://github.com/RIDAM7/SERP-Reader"
+    }
+  ],
+  "roles": [
+    {
+      "title": "Software Developer",
+      "org": "MoonPhase Solutions",
+      "kind": "Full-time",
+      "period": "Jun 2026 — Present",
+      "place": "Indore · Hybrid",
+      "points": [
+        "Architected the company's multi-tenant SaaS for AI-powered SEO and GEO as sole engineer — 37 API modules, 57 backend services and a 75-screen console, with tenant isolation enforced through NextAuth, JWT and RBAC.",
+        "Built a 23-agent pipeline automating keyword research, content generation, optimization and publishing to 5 CMS integrations.",
+        "Routed 3 LLM providers — Claude, OpenAI and Gemini — through a Pinecone RAG layer, selecting per task to balance output quality against latency and API cost.",
+        "Automated a weekly loop that syncs Search Console and GA4 data to detect and rewrite decaying content, recovering rankings with no manual review.",
+        "Launched PhaseDesk, an internal operations system of 13 data models and 21 screens, replacing manual standup, timesheet and leave tracking for every project team."
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
+      "org": "MoonPhase Solutions",
+      "kind": "Internship",
+      "period": "Mar 2026 — May 2026",
+      "place": "Indore · Hybrid",
+      "points": [
+        "Sole backend developer for the official MasterChef platform, a live cooking-competition product built for a broadcast client across 30 route modules and 68 data models.",
+        "Engineered real-time event flow over WebSockets keeping contestants synchronized with a Twitch livestream despite per-viewer delay, restoring state on refresh, late join or a second device.",
+        "Migrated 350,000+ user records to the new system with zero downtime and no data loss.",
+        "Integrated AWS S3, SES and Mux across 6 API domains, with a 41-screen React admin panel for moderation and platform operations."
+      ]
+    },
+    {
+      "title": "Freelance Full-Stack Developer",
+      "org": "Black Raven Esports",
+      "kind": "Freelance",
+      "period": "Jan 2026 — Feb 2026",
+      "place": "Remote",
+      "points": [
+        "Independently delivered a full-stack product for a 30,000+ member esports community, from architecture to deployment in two months.",
+        "Discord and Google OAuth with JWT sessions, plus three core modules — teams, tournaments, scrims — with approval workflows, RBAC, audit logging and a ban system."
+      ]
+    }
+  ],
+  "stack": [
+    {
+      "name": "Databases",
+      "role": "Three stores, one index",
+      "mark": {
+        "abbr": "DB",
+        "fill": "#44d6d6",
+        "letter": "#1e1e1e"
+      },
+      "volume": "81 data models across 2 stores",
+      "col": 2,
+      "row": 1,
+      "items": [
+        {
+          "label": "PostgreSQL",
+          "abbr": "PG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "MongoDB",
+          "abbr": "MG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Redis",
+          "abbr": "RD",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Pinecone",
+          "abbr": "PC",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        }
+      ]
+    },
+    {
+      "name": "Cloud & tooling",
+      "role": "Where all of it runs",
+      "mark": {
+        "abbr": "CL",
+        "fill": "#fea47c",
+        "letter": "#1e1e1e"
+      },
+      "volume": "3 deploys answering right now",
+      "col": 3,
+      "row": 1,
+      "items": [
+        {
+          "label": "AWS S3 / SES",
+          "abbr": "S3",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Firebase",
+          "abbr": "FB",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Vercel",
+          "abbr": "VC",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Railway",
+          "abbr": "RW",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Docker",
+          "abbr": "DK",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Git",
+          "abbr": "GT",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "LangSmith",
+          "abbr": "LS",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Playwright",
+          "abbr": "PW",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "role": "The language of every service",
+      "mark": {
+        "abbr": "LG",
+        "fill": "#88c1ff",
+        "letter": "#1e1e1e"
+      },
+      "volume": null,
+      "col": 1,
+      "row": 1,
+      "items": [
+        {
+          "label": "TypeScript",
+          "abbr": "TS",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "JavaScript",
+          "abbr": "JS",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Python",
+          "abbr": "PY",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "SQL",
+          "abbr": "SQL",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "role": "What the services are made of",
+      "mark": {
+        "abbr": "BE",
+        "fill": "#82d494",
+        "letter": "#1e1e1e"
+      },
+      "volume": "57 services · 37 API modules",
+      "col": 2,
+      "row": 2,
+      "items": [
+        {
+          "label": "Node.js",
+          "abbr": "N",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "REST APIs",
+          "abbr": "RE",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "BullMQ",
+          "abbr": "BQ",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Redis",
+          "abbr": "RD",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "WebSockets",
+          "abbr": "WS",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Prisma",
+          "abbr": "PR",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Mongoose",
+          "abbr": "MS",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        }
+      ]
+    },
+    {
+      "name": "AI & ML",
+      "role": "The 23-agent pipeline's parts",
+      "mark": {
+        "abbr": "AI",
+        "fill": "#caacff",
+        "letter": "#1e1e1e"
+      },
+      "volume": "23 agents · 3 providers · 1 router",
+      "col": 3,
+      "row": 2,
+      "items": [
+        {
+          "label": "Generative AI",
+          "capability": true
+        },
+        {
+          "label": "LLMs",
+          "capability": true
+        },
+        {
+          "label": "RAG",
+          "capability": true
+        },
+        {
+          "label": "Multi-agent systems",
+          "capability": true
+        },
+        {
+          "label": "Prompt engineering",
+          "capability": true
+        },
+        {
+          "label": "Claude · OpenAI · Gemini",
+          "capability": true
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "role": "Consoles and admin panels",
+      "mark": {
+        "abbr": "FE",
+        "fill": "#82d494",
+        "letter": "#1e1e1e"
+      },
+      "volume": "75 console screens · 41 admin screens",
+      "col": 2,
+      "row": 3,
+      "items": [
+        {
+          "label": "React",
+          "abbr": "RC",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Next.js",
+          "abbr": "NX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Astro",
+          "abbr": "AS",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Tailwind CSS",
+          "abbr": "TW",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "React Query",
+          "abbr": "RQ",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        }
+      ]
+    }
+  ],
+  "concepts": [
+    "System design",
+    "Multi-tenant architecture",
+    "SaaS",
+    "Authentication",
+    "OAuth 2.0",
+    "JWT",
+    "RBAC"
+  ],
+  "writing": [
+    {
+      "title": "Narrowing stops at a function declaration",
+      "description": "TypeScript keeps a narrowed type inside an arrow function and loses it inside a hoisted function declaration. Measured across eight compiler versions.",
+      "date": "2026-09-16",
+      "topic": "Tooling",
+      "minutes": 5,
+      "url": "https://ridamagrawal.com/writing/narrowing-stops-at-a-function-declaration"
+    },
+    {
+      "title": "Chrome and Node disagree about this URL",
+      "description": "The same malformed hostname parses to a clean domain in Node and a punycoded mess in Chrome. A bug no test could catch, because the suite runs on Node.",
+      "date": "2026-09-06",
+      "topic": "Debugging",
+      "minutes": 4,
+      "url": "https://ridamagrawal.com/writing/chrome-and-node-disagree-about-this-url"
+    }
+  ]
+}
