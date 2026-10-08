@@ -36,6 +36,94 @@
   ],
   "projects": [
     {
+      "slug": "masterchef",
+      "title": "MasterChef — Live Competition App",
+      "file": "masterchef.ts",
+      "status": null,
+      "line": "The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime.",
+      "stats": [
+        {
+          "value": "350K+",
+          "label": "Records migrated"
+        },
+        {
+          "value": "68",
+          "label": "Data models"
+        },
+        {
+          "value": "41",
+          "label": "Admin screens"
+        },
+        {
+          "value": "30",
+          "label": "Route modules"
+        }
+      ],
+      "stack": [
+        {
+          "label": "Node.js",
+          "abbr": "N",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "MongoDB",
+          "abbr": "MG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "WebSockets",
+          "abbr": "WS",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "React",
+          "abbr": "RC",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Capacitor",
+          "abbr": "CP",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "AWS S3 / SES",
+          "abbr": "S3",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Mux",
+          "abbr": "MX",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Firebase",
+          "abbr": "FB",
+          "fill": "#fea47c",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "Express",
+        "version": "4.21.2"
+      },
+      "href": "https://www.masterchefworld.app",
+      "hrefLabel": "Live",
+      "link": "https://www.masterchefworld.app"
+    },
+    {
       "slug": "keysignals",
       "title": "KeySignals — AI Platform for SEO and GEO",
       "file": "keysignals.tsx",
@@ -266,92 +354,45 @@
       "link": "https://easinvy.com/saas"
     },
     {
-      "slug": "masterchef",
-      "title": "MasterChef — Live Competition App",
-      "file": "masterchef.ts",
-      "status": null,
-      "line": "The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime.",
-      "stats": [
-        {
-          "value": "350K+",
-          "label": "Records migrated"
-        },
-        {
-          "value": "68",
-          "label": "Data models"
-        },
-        {
-          "value": "41",
-          "label": "Admin screens"
-        },
-        {
-          "value": "30",
-          "label": "Route modules"
-        }
-      ],
+      "slug": "serp-reader",
+      "title": "SERP Reader",
+      "file": "serp-reader.ts",
+      "status": "Open source",
+      "line": "A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node.",
+      "stats": [],
       "stack": [
         {
-          "label": "Node.js",
-          "abbr": "N",
-          "fill": "#82d494",
+          "label": "TypeScript",
+          "abbr": "TS",
+          "fill": "#88c1ff",
           "letter": "#1e1e1e"
         },
         {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "MongoDB",
-          "abbr": "MG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "WebSockets",
-          "abbr": "WS",
+          "label": "Chrome MV3",
+          "abbr": "MV",
           "fill": "#caacff",
           "letter": "#1e1e1e"
         },
         {
-          "label": "React",
-          "abbr": "RC",
-          "fill": "#82d494",
+          "label": "IndexedDB",
+          "abbr": "IX",
+          "fill": "#44d6d6",
           "letter": "#1e1e1e"
         },
         {
-          "label": "Capacitor",
-          "abbr": "CP",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "AWS S3 / SES",
-          "abbr": "S3",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Mux",
-          "abbr": "MX",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Firebase",
-          "abbr": "FB",
-          "fill": "#fea47c",
+          "label": "esbuild",
+          "abbr": "ES",
+          "fill": "#caacff",
           "letter": "#1e1e1e"
         }
       ],
       "framework": {
-        "name": "Express",
-        "version": "4.21.2"
+        "name": "esbuild",
+        "version": "0.25.0"
       },
-      "href": "https://www.masterchefworld.app",
-      "hrefLabel": "Live",
-      "link": "https://www.masterchefworld.app"
+      "href": "https://github.com/RIDAM7/SERP-Reader",
+      "hrefLabel": "Source",
+      "link": "https://github.com/RIDAM7/SERP-Reader"
     },
     {
       "slug": "phasedesk",
@@ -418,47 +459,6 @@
       "href": "https://phasedesk.in",
       "hrefLabel": "Live",
       "link": "https://phasedesk.in"
-    },
-    {
-      "slug": "serp-reader",
-      "title": "SERP Reader",
-      "file": "serp-reader.ts",
-      "status": "Open source",
-      "line": "A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node.",
-      "stats": [],
-      "stack": [
-        {
-          "label": "TypeScript",
-          "abbr": "TS",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Chrome MV3",
-          "abbr": "MV",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "IndexedDB",
-          "abbr": "IX",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "esbuild",
-          "abbr": "ES",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "esbuild",
-        "version": "0.25.0"
-      },
-      "href": "https://github.com/RIDAM7/SERP-Reader",
-      "hrefLabel": "Source",
-      "link": "https://github.com/RIDAM7/SERP-Reader"
     }
   ],
   "roles": [
