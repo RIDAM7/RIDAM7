@@ -6,7 +6,7 @@
   workflow re-renders it daily.
 -->
 
-<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,132 contributions and 189 active days in the last 12 months."></a>
+<a href="https://ridamagrawal.com"><img src="assets/hero.svg?v=a7c1eed396" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,132 contributions and 189 active days in the last 12 months."></a>
 
 <p align="center">Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO and GEO firm.</p>
 
@@ -15,27 +15,27 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-work-dark.svg">
-  <img src="assets/head-work-light.svg" width="100%" alt="Selected work. Things I built alone. 6 projects.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/head-work-dark.svg?v=84f7e5ed1f">
+  <img src="assets/head-work-light.svg?v=85bec52bd1" width="100%" alt="Selected work. Things I built alone. 6 projects.">
 </picture>
 
-<a href="https://www.masterchefworld.app"><img src="assets/work-masterchef.svg" width="100%" alt="MasterChef — Live Competition App. The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime. Stack: Node.js, Express, MongoDB, WebSockets, React, Capacitor, AWS S3 / SES, Mux, Firebase."></a>
+<a href="https://www.masterchefworld.app"><img src="assets/work-masterchef.svg?v=efbc917fa2" width="100%" alt="MasterChef — Live Competition App. The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime. Stack: Node.js, Express, MongoDB, WebSockets, React, Capacitor, AWS S3 / SES, Mux, Firebase."></a>
 
-<a href="https://keysignals.tech"><img src="assets/work-keysignals.svg" width="100%" alt="KeySignals — AI Platform for SEO and GEO. The company's AI platform for SEO and GEO, built end to end as the only engineer and now live. 23 agents take a site from crawl to published page, then it asks ChatGPT, Gemini, Perplexity and AI Overviews whether the brand is named or cited. Stack: TypeScript, Node.js, Express, PostgreSQL, Redis, BullMQ, Next.js 14, NextAuth, Playwright."></a>
+<a href="https://keysignals.tech"><img src="assets/work-keysignals.svg?v=470f396c9b" width="100%" alt="KeySignals — AI Platform for SEO and GEO. The company's AI platform for SEO and GEO, built end to end as the only engineer and now live. 23 agents take a site from crawl to published page, then it asks ChatGPT, Gemini, Perplexity and AI Overviews whether the brand is named or cited. Stack: TypeScript, Node.js, Express, PostgreSQL, Redis, BullMQ, Next.js 14, NextAuth, Playwright."></a>
 
-<a href="https://elivateseo.com/audit"><img src="assets/work-elivate-seo-audit.svg" width="100%" alt="Elivate SEO Audit Tool. Type a domain and it reads the site the way a crawler does, then returns a specific fix per finding instead of a score. It fetches whatever URL a stranger types, so the fetcher is an SSRF guard first, and every redirect hop is checked again. Stack: Astro, TypeScript, Node.js, PostgreSQL, Railway."></a>
+<a href="https://elivateseo.com/audit"><img src="assets/work-elivate-seo-audit.svg?v=9ba8350d97" width="100%" alt="Elivate SEO Audit Tool. Type a domain and it reads the site the way a crawler does, then returns a specific fix per finding instead of a score. It fetches whatever URL a stranger types, so the fetcher is an SSRF guard first, and every redirect hop is checked again. Stack: Astro, TypeScript, Node.js, PostgreSQL, Railway."></a>
 
-<a href="https://easinvy.com/saas"><img src="assets/work-easinvy-retail.svg" width="100%" alt="Easinvy Retail. GST billing and inventory for small Indian shops: bills, stock, purchases, suppliers, staff attendance and Razorpay subscriptions in one system. Designed for a phone held one-handed at a counter, so every number is the most legible thing on the screen. Stack: Next.js 16, React 19, Tailwind CSS 4, Express, Drizzle, PostgreSQL, Razorpay, PDFKit."></a>
+<a href="https://easinvy.com/saas"><img src="assets/work-easinvy-retail.svg?v=ffe61e0c2f" width="100%" alt="Easinvy Retail. GST billing and inventory for small Indian shops: bills, stock, purchases, suppliers, staff attendance and Razorpay subscriptions in one system. Designed for a phone held one-handed at a counter, so every number is the most legible thing on the screen. Stack: Next.js 16, React 19, Tailwind CSS 4, Express, Drizzle, PostgreSQL, Razorpay, PDFKit."></a>
 
-<a href="https://github.com/RIDAM7/SERP-Reader"><img src="assets/work-serp-reader.svg" width="100%" alt="SERP Reader. A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node. Stack: TypeScript, Chrome MV3, IndexedDB, esbuild."></a>
+<a href="https://github.com/RIDAM7/SERP-Reader"><img src="assets/work-serp-reader.svg?v=24921247d8" width="100%" alt="SERP Reader. A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node. Stack: TypeScript, Chrome MV3, IndexedDB, esbuild."></a>
 
-<a href="https://phasedesk.in"><img src="assets/work-phasedesk.svg" width="100%" alt="PhaseDesk — Team Operations. An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models. Stack: Next.js 14, Express, Prisma, PostgreSQL, Zod, JWT."></a>
+<a href="https://phasedesk.in"><img src="assets/work-phasedesk.svg?v=bf0139ea2e" width="100%" alt="PhaseDesk — Team Operations. An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models. Stack: Next.js 14, Express, Prisma, PostgreSQL, Zod, JWT."></a>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-experience-dark.svg">
-  <img src="assets/head-experience-light.svg" width="100%" alt="Experience. Where it was built.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/head-experience-dark.svg?v=b1750e9c25">
+  <img src="assets/head-experience-light.svg?v=9a49e3c204" width="100%" alt="Experience. Where it was built.">
 </picture>
 
 **Software Developer** · MoonPhase Solutions<br>
@@ -61,17 +61,17 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-stack-dark.svg">
-  <img src="assets/head-stack-light.svg" width="100%" alt="Stack. What I reach for.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/head-stack-dark.svg?v=7c45d0a4d7">
+  <img src="assets/head-stack-light.svg?v=06766458c6" width="100%" alt="Stack. What I reach for.">
 </picture>
 
-<img src="assets/stack.svg" width="100%" alt="Databases: PostgreSQL, MongoDB, Redis. Cloud &amp; tooling: AWS S3 / SES, Firebase, Vercel, Railway, Docker, Git, LangSmith, Playwright. Languages: TypeScript, JavaScript, Python, SQL. Backend: Node.js, Express, REST APIs, BullMQ, Redis, WebSockets, Prisma, Mongoose. AI &amp; ML: Generative AI, LLMs, RAG, Embeddings, Multi-agent systems, Prompt engineering, Claude · OpenAI · Gemini. Frontend: React, Next.js, Astro, Tailwind CSS, React Query.">
+<img src="assets/stack.svg?v=405ac11ff9" width="100%" alt="Databases: PostgreSQL, MongoDB, Redis. Cloud &amp; tooling: AWS S3 / SES, Firebase, Vercel, Railway, Docker, Git, LangSmith, Playwright. Languages: TypeScript, JavaScript, Python, SQL. Backend: Node.js, Express, REST APIs, BullMQ, Redis, WebSockets, Prisma, Mongoose. AI &amp; ML: Generative AI, LLMs, RAG, Embeddings, Multi-agent systems, Prompt engineering, Claude · OpenAI · Gemini. Frontend: React, Next.js, Astro, Tailwind CSS, React Query.">
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-writing-dark.svg">
-  <img src="assets/head-writing-light.svg" width="100%" alt="Writing. Things that broke, and why.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/head-writing-dark.svg?v=23663aa4ec">
+  <img src="assets/head-writing-light.svg?v=0cf75fcae6" width="100%" alt="Writing. Things that broke, and why.">
 </picture>
 
 **[Narrowing stops at a function declaration](https://ridamagrawal.com/writing/narrowing-stops-at-a-function-declaration)**<br>
@@ -86,4 +86,4 @@ The same malformed hostname parses to a clean domain in Node and a punycoded mes
 
 <br>
 
-<a href="mailto:ridam6419r@gmail.com"><img src="assets/contact.svg" width="100%" alt="Open to work. Full-stack, backend and software engineer roles. ridam6419r@gmail.com, Indore, India."></a>
+<a href="mailto:ridam6419r@gmail.com"><img src="assets/contact.svg?v=0045347650" width="100%" alt="Open to work. Full-stack, backend and software engineer roles. ridam6419r@gmail.com, Indore, India."></a>
