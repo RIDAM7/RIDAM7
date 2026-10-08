@@ -6,7 +6,7 @@
   workflow re-renders it daily.
 -->
 
-<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 57 backend services shipped, 3 production systems, sole engineer. 2,070 contributions and 188 active days in the last 12 months."></a>
+<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,129 contributions and 189 active days in the last 12 months."></a>
 
 <p align="center">Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO and GEO firm.</p>
 
@@ -19,7 +19,7 @@
   <img src="assets/head-work-light.svg" width="100%" alt="Selected work. Things I built alone. 6 projects.">
 </picture>
 
-<a href="https://ridamagrawal.com/#ai-seo-geo-platform"><img src="assets/work-ai-seo-geo-platform.svg" width="100%" alt="AI SEO &amp; GEO Platform. A multi-tenant SaaS I architected and built as the only engineer. 23 AI agents span crawling, keyword discovery, research, writing, optimization and publishing, coordinated by a queue-backed orchestrator across 57 services. Stack: TypeScript, Node.js, Express, PostgreSQL, Redis, BullMQ, Pinecone, Next.js, Playwright."></a>
+<a href="https://keysignals.tech"><img src="assets/work-keysignals.svg" width="100%" alt="KeySignals — AI Platform for SEO and GEO. The company's AI platform for SEO and GEO, built end to end as the only engineer and now live. 23 agents take a site from crawl to published page, then it asks ChatGPT, Gemini, Perplexity and AI Overviews whether the brand is named or cited. Stack: TypeScript, Node.js, Express, PostgreSQL, Redis, BullMQ, Next.js 14, NextAuth, Playwright."></a>
 
 <a href="https://elivateseo.com/audit"><img src="assets/work-elivate-seo-audit.svg" width="100%" alt="Elivate SEO Audit Tool. Type a domain and it reads the site the way a crawler does, then returns a specific fix per finding instead of a score. It fetches whatever URL a stranger types, so the fetcher is an SSRF guard first, and every redirect hop is checked again. Stack: Astro, TypeScript, Node.js, PostgreSQL, Railway."></a>
 
@@ -41,9 +41,9 @@
 **Software Developer** · MoonPhase Solutions<br>
 <sub>JUN 2026 — PRESENT · INDORE · HYBRID · FULL-TIME</sub>
 
-- Architected the company's multi-tenant SaaS for AI-powered SEO and GEO as sole engineer — 37 API modules, 57 backend services and a 75-screen console, with tenant isolation enforced through NextAuth, JWT and RBAC.
-- Built a 23-agent pipeline automating keyword research, content generation, optimization and publishing to 5 CMS integrations.
-- Routed 3 LLM providers — Claude, OpenAI and Gemini — through a Pinecone RAG layer, selecting per task to balance output quality against latency and API cost.
+- Designed and built KeySignals (keysignals.tech), the company's AI platform for SEO and Generative Engine Optimization, end to end as the only engineer, owning frontend, backend and integrations. Now live.
+- Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor research, keyword research and clustering, content planning, writing, SEO and GEO optimization, and publishing.
+- Routed Claude, OpenAI and Gemini per task to balance output quality against latency and cost, with every page grounded in a business profile drawn from the site's own pages rather than the model's memory.
 
 **Software Developer Intern** · MoonPhase Solutions<br>
 <sub>MAR 2026 — MAY 2026 · INDORE · HYBRID · INTERNSHIP</sub>
@@ -65,7 +65,7 @@
   <img src="assets/head-stack-light.svg" width="100%" alt="Stack. What I reach for.">
 </picture>
 
-<img src="assets/stack.svg" width="100%" alt="Databases: PostgreSQL, MongoDB, Redis, Pinecone. Cloud &amp; tooling: AWS S3 / SES, Firebase, Vercel, Railway, Docker, Git, LangSmith, Playwright. Languages: TypeScript, JavaScript, Python, SQL. Backend: Node.js, Express, REST APIs, BullMQ, Redis, WebSockets, Prisma, Mongoose. AI &amp; ML: Generative AI, LLMs, RAG, Multi-agent systems, Prompt engineering, Claude · OpenAI · Gemini. Frontend: React, Next.js, Astro, Tailwind CSS, React Query.">
+<img src="assets/stack.svg" width="100%" alt="Databases: PostgreSQL, MongoDB, Redis. Cloud &amp; tooling: AWS S3 / SES, Firebase, Vercel, Railway, Docker, Git, LangSmith, Playwright. Languages: TypeScript, JavaScript, Python, SQL. Backend: Node.js, Express, REST APIs, BullMQ, Redis, WebSockets, Prisma, Mongoose. AI &amp; ML: Generative AI, LLMs, RAG, Embeddings, Multi-agent systems, Prompt engineering, Claude · OpenAI · Gemini. Frontend: React, Next.js, Astro, Tailwind CSS, React Query.">
 
 <br>
 

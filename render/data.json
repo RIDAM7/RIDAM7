@@ -26,7 +26,7 @@
       "label": "AI agents in one pipeline"
     },
     {
-      "value": "57",
+      "value": "81",
       "label": "Backend services shipped"
     },
     {
@@ -36,27 +36,27 @@
   ],
   "projects": [
     {
-      "slug": "ai-seo-geo-platform",
-      "title": "AI SEO & GEO Platform",
-      "file": "ai-seo-geo-platform.ts",
-      "status": "In production",
-      "line": "A multi-tenant SaaS I architected and built as the only engineer. 23 AI agents span crawling, keyword discovery, research, writing, optimization and publishing, coordinated by a queue-backed orchestrator across 57 services.",
+      "slug": "keysignals",
+      "title": "KeySignals — AI Platform for SEO and GEO",
+      "file": "keysignals.tsx",
+      "status": null,
+      "line": "The company's AI platform for SEO and GEO, built end to end as the only engineer and now live. 23 agents take a site from crawl to published page, then it asks ChatGPT, Gemini, Perplexity and AI Overviews whether the brand is named or cited.",
       "stats": [
         {
-          "value": "37",
-          "label": "API modules"
+          "value": "43",
+          "label": "Route modules"
         },
         {
-          "value": "57",
+          "value": "81",
           "label": "Services"
         },
         {
-          "value": "75",
-          "label": "Console screens"
+          "value": "67",
+          "label": "Dashboard screens"
         },
         {
           "value": "5",
-          "label": "CMS integrations"
+          "label": "AI engines tracked"
         }
       ],
       "stack": [
@@ -97,15 +97,15 @@
           "letter": "#1e1e1e"
         },
         {
-          "label": "Pinecone",
-          "abbr": "PC",
-          "fill": "#44d6d6",
+          "label": "Next.js 14",
+          "abbr": "NX",
+          "fill": "#82d494",
           "letter": "#1e1e1e"
         },
         {
-          "label": "Next.js",
-          "abbr": "NX",
-          "fill": "#82d494",
+          "label": "NextAuth",
+          "abbr": "NA",
+          "fill": "#caacff",
           "letter": "#1e1e1e"
         },
         {
@@ -115,10 +115,13 @@
           "letter": "#1e1e1e"
         }
       ],
-      "framework": null,
-      "href": null,
-      "hrefLabel": null,
-      "link": "https://ridamagrawal.com/#ai-seo-geo-platform"
+      "framework": {
+        "name": "Next.js",
+        "version": "14.2.35"
+      },
+      "href": "https://keysignals.tech",
+      "hrefLabel": "Live",
+      "link": "https://keysignals.tech"
     },
     {
       "slug": "elivate-seo-audit",
@@ -466,11 +469,14 @@
       "period": "Jun 2026 — Present",
       "place": "Indore · Hybrid",
       "points": [
-        "Architected the company's multi-tenant SaaS for AI-powered SEO and GEO as sole engineer — 37 API modules, 57 backend services and a 75-screen console, with tenant isolation enforced through NextAuth, JWT and RBAC.",
-        "Built a 23-agent pipeline automating keyword research, content generation, optimization and publishing to 5 CMS integrations.",
-        "Routed 3 LLM providers — Claude, OpenAI and Gemini — through a Pinecone RAG layer, selecting per task to balance output quality against latency and API cost.",
-        "Automated a weekly loop that syncs Search Console and GA4 data to detect and rewrite decaying content, recovering rankings with no manual review.",
-        "Launched PhaseDesk, an internal operations system of 13 data models and 21 screens, replacing manual standup, timesheet and leave tracking for every project team."
+        "Designed and built KeySignals (keysignals.tech), the company's AI platform for SEO and Generative Engine Optimization, end to end as the only engineer, owning frontend, backend and integrations. Now live.",
+        "Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor research, keyword research and clustering, content planning, writing, SEO and GEO optimization, and publishing.",
+        "Routed Claude, OpenAI and Gemini per task to balance output quality against latency and cost, with every page grounded in a business profile drawn from the site's own pages rather than the model's memory.",
+        "Built the GEO engine that tracks whether a brand is mentioned or cited in ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode, using DataForSEO and live search data.",
+        "Built a weekly loop that pulls Search Console and GA4 data, finds pages that are slipping and drafts the fix, which waits for approval before anything goes live.",
+        "Added off-site GEO tooling that finds the Reddit threads and GitHub discussions where a brand's category comes up, through Google's index rather than scraping Reddit, then drafts and schedules content for them.",
+        "Exposed a public API and an MCP server so external tools and AI agents can use KeySignals directly.",
+        "Built the control plane in Next.js 14 with 67 dashboard screens on PostgreSQL, Redis and BullMQ, multi-tenant and secured with NextAuth, JWT and role-based access control."
       ]
     },
     {
@@ -501,7 +507,7 @@
   "stack": [
     {
       "name": "Databases",
-      "role": "Three stores, one index",
+      "role": "Three stores, no vector DB",
       "mark": {
         "abbr": "DB",
         "fill": "#44d6d6",
@@ -528,12 +534,6 @@
           "abbr": "RD",
           "fill": "#44d6d6",
           "letter": "#1e1e1e"
-        },
-        {
-          "label": "Pinecone",
-          "abbr": "PC",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
         }
       ]
     },
@@ -545,7 +545,7 @@
         "fill": "#fea47c",
         "letter": "#1e1e1e"
       },
-      "volume": "3 deploys answering right now",
+      "volume": "4 deploys answering right now",
       "col": 3,
       "row": 1,
       "items": [
@@ -645,7 +645,7 @@
         "fill": "#82d494",
         "letter": "#1e1e1e"
       },
-      "volume": "57 services · 37 API modules",
+      "volume": "81 services · 43 route modules",
       "col": 2,
       "row": 2,
       "items": [
@@ -724,6 +724,10 @@
           "capability": true
         },
         {
+          "label": "Embeddings",
+          "capability": true
+        },
+        {
           "label": "Multi-agent systems",
           "capability": true
         },
@@ -745,7 +749,7 @@
         "fill": "#82d494",
         "letter": "#1e1e1e"
       },
-      "volume": "75 console screens · 41 admin screens",
+      "volume": "67 dashboard screens · 41 admin screens",
       "col": 2,
       "row": 3,
       "items": [
