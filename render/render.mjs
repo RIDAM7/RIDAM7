@@ -21,11 +21,10 @@
  * Plex Mono's latin subset has no arrows (U+2192) and satori has no fallback
  * font, so an arrow here renders as an empty box. Shapes are drawn instead.
  */
-import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
-import { createHash } from 'node:crypto';
 import satori from 'satori';
 import { getContributions } from './contributions.mjs';
 
@@ -527,24 +526,11 @@ async function contact({ days, cols }) {
 
 /* ------------------------------------------------------------- the README */
 
-/*
- * Every image URL carries a hash of the file it points at.
- *
- * GitHub serves repository files with a five-minute cache, at its CDN and in
- * the browser, and the filenames here never change. Without this, a push is
- * followed by up to five minutes of the old images on the profile, and the
- * daily grid refresh could sit behind a stale copy. The query string changes
- * exactly when the bytes do, so an unchanged image keeps its cached copy and a
- * changed one is fetched fresh.
- */
-const versions = new Map();
-const asset = (name) => `assets/${name}?v=${versions.get(name)}`;
-
 const picture = (id, alt) =>
   [
     '<picture>',
-    `  <source media="(prefers-color-scheme: dark)" srcset="${asset(`head-${id}-dark.svg`)}">`,
-    `  <img src="${asset(`head-${id}-light.svg`)}" width="100%" alt="${alt}">`,
+    `  <source media="(prefers-color-scheme: dark)" srcset="assets/head-${id}-dark.svg">`,
+    `  <img src="assets/head-${id}-light.svg" width="100%" alt="${alt}">`,
     '</picture>',
   ].join('\n');
 
@@ -567,7 +553,7 @@ function readme(c) {
   const cards = data.projects
     .map((p) => {
       const alt = esc(`${p.title}. ${p.line} Stack: ${p.stack.map((t) => t.label).join(', ')}.`);
-      return `<a href="${p.link}"><img src="${asset(`work-${p.slug}.svg`)}" width="100%" alt="${alt}"></a>`;
+      return `<a href="${p.link}"><img src="assets/work-${p.slug}.svg" width="100%" alt="${alt}"></a>`;
     })
     .join('\n\n');
 
@@ -604,7 +590,7 @@ function readme(c) {
   workflow re-renders it daily.
 -->
 
-<a href="${data.site}"><img src="${asset('hero.svg')}" width="100%" alt="${esc(heroAlt)}"></a>
+<a href="${data.site}"><img src="assets/hero.svg" width="100%" alt="${esc(heroAlt)}"></a>
 
 <p align="center">${esc(data.long)}</p>
 
@@ -626,7 +612,7 @@ ${roles}
 
 ${picture('stack', 'Stack. What I reach for.')}
 
-<img src="${asset('stack.svg')}" width="100%" alt="${stackAlt}">
+<img src="assets/stack.svg" width="100%" alt="${stackAlt}">
 
 <br>
 
@@ -638,7 +624,7 @@ ${writing}
 
 <br>
 
-<a href="mailto:${data.email}"><img src="${asset('contact.svg')}" width="100%" alt="Open to work. Full-stack, backend and software engineer roles. ${data.email}, ${data.location}."></a>
+<a href="mailto:${data.email}"><img src="assets/contact.svg" width="100%" alt="Open to work. Full-stack, backend and software engineer roles. ${data.email}, ${data.location}."></a>
 `;
 }
 
@@ -657,11 +643,6 @@ const written = [
   await stackPanel(),
   await contact(contributions),
 ];
-
-for (const name of (await readdir(join(root, 'assets'))).filter((f) => f.endsWith('.svg'))) {
-  const bytes = await readFile(join(root, 'assets', name));
-  versions.set(name, createHash('sha256').update(bytes).digest('hex').slice(0, 10));
-}
 
 await writeFile(join(root, 'README.md'), readme(contributions));
 console.log(`Rendered README.md and ${written.length} image sets. ${fmt(contributions.total)} contributions, ${contributions.activeDays} active days.`);
