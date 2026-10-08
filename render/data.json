@@ -121,7 +121,9 @@
       },
       "href": "https://www.masterchefworld.app",
       "hrefLabel": "Live",
-      "link": "https://www.masterchefworld.app"
+      "link": "https://www.masterchefworld.app",
+      "image": "work/masterchef.jpg",
+      "imageAlt": "The El Reto de MasterChef homepage: 'The next one could be you.' set over photos of contestants cooking."
     },
     {
       "slug": "keysignals",
@@ -209,7 +211,9 @@
       },
       "href": "https://keysignals.tech",
       "hrefLabel": "Live",
-      "link": "https://keysignals.tech"
+      "link": "https://keysignals.tech",
+      "image": "work/keysignals.jpg",
+      "imageAlt": "The KeySignals homepage: 'Get found on Google and in AI answers', beside the product's dashboard for an example site."
     },
     {
       "slug": "elivate-seo-audit",
@@ -269,7 +273,9 @@
       },
       "href": "https://elivateseo.com/audit",
       "hrefLabel": "Live",
-      "link": "https://elivateseo.com/audit"
+      "link": "https://elivateseo.com/audit",
+      "image": "work/elivate-seo-audit.jpg",
+      "imageAlt": "The Elivate SEO free site audit card: 'A fix for every finding, not a score.'"
     },
     {
       "slug": "easinvy-retail",
@@ -351,7 +357,9 @@
       },
       "href": "https://easinvy.com/saas",
       "hrefLabel": "Live",
-      "link": "https://easinvy.com/saas"
+      "link": "https://easinvy.com/saas",
+      "image": "work/easinvy-retail.jpg",
+      "imageAlt": "The Easinvy Retail card: 'GST billing and stock, built for the counter', beside a sample GST bill."
     },
     {
       "slug": "serp-reader",
@@ -392,7 +400,9 @@
       },
       "href": "https://github.com/RIDAM7/SERP-Reader",
       "hrefLabel": "Source",
-      "link": "https://github.com/RIDAM7/SERP-Reader"
+      "link": "https://github.com/RIDAM7/SERP-Reader",
+      "image": "work/serp-reader.jpg",
+      "imageAlt": "The SERP Reader card: a Google results page with the extension's Collect button over it."
     },
     {
       "slug": "phasedesk",
@@ -458,7 +468,9 @@
       },
       "href": "https://phasedesk.in",
       "hrefLabel": "Live",
-      "link": "https://phasedesk.in"
+      "link": "https://phasedesk.in",
+      "image": "work/phasedesk.jpg",
+      "imageAlt": "The PhaseDesk homepage: structured daily updates and automated weekly reports, with invite-only sign-in."
     }
   ],
   "roles": [

@@ -271,8 +271,22 @@ async function sectionHead(id, kicker, title, meta) {
 
 /* ---------------------------------------------------------- project cards */
 
+/*
+ * The project's image, embedded as a data URI. A README image is fetched
+ * through GitHub's proxy and an SVG loaded as an image cannot fetch anything
+ * itself, so the picture has to travel inside the file. The JPEG is written by
+ * the portfolio's export at exactly the size drawn here (400px, at 2x).
+ */
+async function cardImage(p) {
+  if (!p.image) return null;
+  const jpg = await readFile(join(here, p.image));
+  return `data:image/jpeg;base64,${jpg.toString('base64')}`;
+}
+
 async function projectCard(p) {
-  const height = 420;
+  const height = 450;
+  const image = await cardImage(p);
+  const asideW = 400;
   return render(
     `work-${p.slug}.svg`,
     box(
@@ -327,12 +341,38 @@ async function projectCard(p) {
           : null,
       ),
 
+      // The site's aside: the project's image, then the stack. The list wraps
+      // into pills here rather than running as a column, because nine rows
+      // under a 209px image would not fit the card.
       box(
-        { flexDirection: 'column', width: 286, borderLeft: `1px solid ${HAIRLINE}`, paddingLeft: 34 },
-        text(label(14, FAINT, { marginBottom: 16 }), 'Stack'),
+        { flexDirection: 'column', width: asideW + 34, borderLeft: `1px solid ${HAIRLINE}`, paddingLeft: 34 },
+        image
+          ? box(
+              {
+                width: asideW,
+                height: Math.round(asideW / (800 / 419)),
+                border: `1px solid ${HAIRLINE}`,
+                borderRadius: 10,
+                overflow: 'hidden',
+                marginBottom: 20,
+              },
+              h('img', { src: image, width: asideW, height: Math.round(asideW / (800 / 419)), style: { objectFit: 'cover' } }),
+            )
+          : null,
         box(
-          { flexDirection: 'column', gap: 10 },
-          p.stack.map((t) => box({ alignItems: 'center' }, chip(t, 24), text(mono(17, INK, { marginLeft: 14 }), t.label))),
+          { flexWrap: 'wrap', gap: 8 },
+          p.stack.map((t) =>
+            box(
+              {
+                alignItems: 'center',
+                border: `1px solid ${HAIRLINE}`,
+                borderRadius: 7,
+                padding: '4px 10px 4px 5px',
+              },
+              chip(t, 20),
+              text(mono(15, INK, { marginLeft: 8 }), t.label),
+            ),
+          ),
         ),
       ),
     ),
