@@ -216,6 +216,74 @@
       "imageAlt": "The KeySignals homepage: 'Get found on Google and in AI answers', beside the product's dashboard for an example site."
     },
     {
+      "slug": "phasedesk",
+      "title": "PhaseDesk — Team Operations",
+      "file": "phasedesk.tsx",
+      "status": null,
+      "line": "An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models.",
+      "stats": [
+        {
+          "value": "21",
+          "label": "Screens"
+        },
+        {
+          "value": "13",
+          "label": "Data models"
+        },
+        {
+          "value": "2",
+          "label": "Applications"
+        }
+      ],
+      "stack": [
+        {
+          "label": "Next.js 14",
+          "abbr": "NX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Express",
+          "abbr": "EX",
+          "fill": "#82d494",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Prisma",
+          "abbr": "PR",
+          "fill": "#caacff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "PostgreSQL",
+          "abbr": "PG",
+          "fill": "#44d6d6",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "Zod",
+          "abbr": "ZD",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        },
+        {
+          "label": "JWT",
+          "abbr": "JW",
+          "fill": "#88c1ff",
+          "letter": "#1e1e1e"
+        }
+      ],
+      "framework": {
+        "name": "Next.js",
+        "version": "14.2.15"
+      },
+      "href": "https://phasedesk.in",
+      "hrefLabel": "Live",
+      "link": "https://phasedesk.in",
+      "image": "work/phasedesk.jpg",
+      "imageAlt": "The PhaseDesk homepage: “Your team's day, written down once” beside an example daily update with completed work, work in progress and a blocker."
+    },
+    {
       "slug": "elivate-seo-audit",
       "title": "Elivate SEO Audit Tool",
       "file": "elivate-seo-audit.astro",
@@ -403,74 +471,6 @@
       "link": "https://github.com/RIDAM7/SERP-Reader",
       "image": "work/serp-reader.jpg",
       "imageAlt": "The SERP Reader card: a Google results page with the extension's Collect button over it."
-    },
-    {
-      "slug": "phasedesk",
-      "title": "PhaseDesk — Team Operations",
-      "file": "phasedesk.tsx",
-      "status": null,
-      "line": "An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models.",
-      "stats": [
-        {
-          "value": "21",
-          "label": "Screens"
-        },
-        {
-          "value": "13",
-          "label": "Data models"
-        },
-        {
-          "value": "2",
-          "label": "Applications"
-        }
-      ],
-      "stack": [
-        {
-          "label": "Next.js 14",
-          "abbr": "NX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Prisma",
-          "abbr": "PR",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "PostgreSQL",
-          "abbr": "PG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Zod",
-          "abbr": "ZD",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "JWT",
-          "abbr": "JW",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "Next.js",
-        "version": "14.2.15"
-      },
-      "href": "https://phasedesk.in",
-      "hrefLabel": "Live",
-      "link": "https://phasedesk.in",
-      "image": "work/phasedesk.jpg",
-      "imageAlt": "The PhaseDesk homepage: “Your team's day, written down once” beside an example daily update with completed work, work in progress and a blocker."
     }
   ],
   "roles": [
