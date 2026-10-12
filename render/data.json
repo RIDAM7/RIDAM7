@@ -478,30 +478,18 @@
       "title": "Software Developer",
       "org": "MoonPhase Solutions",
       "kind": "Full-time",
-      "period": "Jun 2026 — Present",
+      "period": "Mar 2026 — Present",
       "place": "Indore · Hybrid",
       "points": [
         "Designed and built KeySignals (keysignals.tech), the company's AI platform for SEO and Generative Engine Optimization, end to end as the only engineer, owning frontend, backend and integrations. Now live.",
-        "Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor research, keyword research and clustering, content planning, writing, SEO and GEO optimization, and publishing.",
-        "Routed Claude, OpenAI and Gemini per task to balance output quality against latency and cost, with every page grounded in a business profile drawn from the site's own pages rather than the model's memory.",
-        "Built the GEO engine that tracks whether a brand is mentioned or cited in ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode, using DataForSEO and live search data.",
-        "Built a weekly loop that pulls Search Console and GA4 data, finds pages that are slipping and drafts the fix, which waits for approval before anything goes live.",
-        "Added off-site GEO tooling that finds the Reddit threads and GitHub discussions where a brand's category comes up, through Google's index rather than scraping Reddit, then drafts and schedules content for them.",
-        "Exposed a public API and an MCP server so external tools and AI agents can use KeySignals directly.",
-        "Built the control plane in Next.js 14 with 67 dashboard screens on PostgreSQL, Redis and BullMQ, multi-tenant and secured with NextAuth, JWT and role-based access control."
-      ]
-    },
-    {
-      "title": "Software Developer Intern",
-      "org": "MoonPhase Solutions",
-      "kind": "Internship",
-      "period": "Mar 2026 — May 2026",
-      "place": "Indore · Hybrid",
-      "points": [
-        "Sole backend developer for the official MasterChef platform, a live cooking-competition product built for a broadcast client across 30 route modules and 68 data models.",
-        "Engineered real-time event flow over WebSockets keeping contestants synchronized with a Twitch livestream despite per-viewer delay, restoring state on refresh, late join or a second device.",
-        "Migrated 350,000+ user records to the new system with zero downtime and no data loss.",
-        "Integrated AWS S3, SES and Mux across 6 API domains, with a 41-screen React admin panel for moderation and platform operations."
+        "Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor and keyword research, clustering, content planning, writing, SEO and GEO optimization, and publishing.",
+        "Routed Claude, OpenAI and Gemini per task on quality, latency and cost, grounding every page in a business profile drawn from the site's own pages rather than the model's memory.",
+        "Built the GEO engine that tracks whether a brand is mentioned or cited in ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode, plus a weekly Search Console and GA4 loop that drafts fixes for slipping pages and holds them for approval.",
+        "Added off-site GEO tooling that finds Reddit threads and GitHub discussions in a brand's category through Google's index rather than scraping, and exposed a public API and an MCP server for external tools and AI agents.",
+        "Built the control plane in Next.js 14: 67 dashboard screens on PostgreSQL, Redis and BullMQ, multi-tenant with NextAuth, JWT and role-based access control.",
+        "Before KeySignals, built the backend for the official MasterChef platform (masterchefworld.app) from scratch as the sole backend developer, on Node.js, Express and MongoDB across 6 REST domains, 30 route modules and 68 data models.",
+        "Engineered real-time event flow over WebSockets that keeps contestants in sync with a Twitch livestream despite per-viewer delay, and migrated 350,000+ existing users onto the new system with zero downtime and no data loss.",
+        "Built a 41-screen React and TypeScript admin console, integrated AWS S3, SES, Mux and Firebase, and still maintain the app alongside KeySignals."
       ]
     },
     {

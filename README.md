@@ -6,7 +6,7 @@
   workflow re-renders it daily.
 -->
 
-<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,234 contributions and 193 active days in the last 12 months."></a>
+<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,235 contributions and 193 active days in the last 12 months."></a>
 
 <p align="center">Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO and GEO firm.</p>
 
@@ -39,18 +39,23 @@
 </picture>
 
 **Software Developer** · MoonPhase Solutions<br>
-<sub>JUN 2026 — PRESENT · INDORE · HYBRID · FULL-TIME</sub>
+<sub>MAR 2026 — PRESENT · INDORE · HYBRID · FULL-TIME</sub>
 
 - Designed and built KeySignals (keysignals.tech), the company's AI platform for SEO and Generative Engine Optimization, end to end as the only engineer, owning frontend, backend and integrations. Now live.
-- Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor research, keyword research and clustering, content planning, writing, SEO and GEO optimization, and publishing.
-- Routed Claude, OpenAI and Gemini per task to balance output quality against latency and cost, with every page grounded in a business profile drawn from the site's own pages rather than the model's memory.
+- Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor and keyword research, clustering, content planning, writing, SEO and GEO optimization, and publishing.
+- Routed Claude, OpenAI and Gemini per task on quality, latency and cost, grounding every page in a business profile drawn from the site's own pages rather than the model's memory.
 
-**Software Developer Intern** · MoonPhase Solutions<br>
-<sub>MAR 2026 — MAY 2026 · INDORE · HYBRID · INTERNSHIP</sub>
+<details>
+<summary>6 more</summary>
 
-- Sole backend developer for the official MasterChef platform, a live cooking-competition product built for a broadcast client across 30 route modules and 68 data models.
-- Engineered real-time event flow over WebSockets keeping contestants synchronized with a Twitch livestream despite per-viewer delay, restoring state on refresh, late join or a second device.
-- Migrated 350,000+ user records to the new system with zero downtime and no data loss.
+- Built the GEO engine that tracks whether a brand is mentioned or cited in ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode, plus a weekly Search Console and GA4 loop that drafts fixes for slipping pages and holds them for approval.
+- Added off-site GEO tooling that finds Reddit threads and GitHub discussions in a brand's category through Google's index rather than scraping, and exposed a public API and an MCP server for external tools and AI agents.
+- Built the control plane in Next.js 14: 67 dashboard screens on PostgreSQL, Redis and BullMQ, multi-tenant with NextAuth, JWT and role-based access control.
+- Before KeySignals, built the backend for the official MasterChef platform (masterchefworld.app) from scratch as the sole backend developer, on Node.js, Express and MongoDB across 6 REST domains, 30 route modules and 68 data models.
+- Engineered real-time event flow over WebSockets that keeps contestants in sync with a Twitch livestream despite per-viewer delay, and migrated 350,000+ existing users onto the new system with zero downtime and no data loss.
+- Built a 41-screen React and TypeScript admin console, integrated AWS S3, SES, Mux and Firebase, and still maintain the app alongside KeySignals.
+
+</details>
 
 **Freelance Full-Stack Developer** · Black Raven Esports<br>
 <sub>JAN 2026 — FEB 2026 · REMOTE · FREELANCE</sub>

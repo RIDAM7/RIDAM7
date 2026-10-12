@@ -557,15 +557,21 @@ function readme(c) {
     })
     .join('\n\n');
 
+  // Three points show; the rest fold under "more", as LinkedIn does. A role
+  // that covers two products would otherwise lose the second one entirely.
   const roles = data.roles
-    .map((r) =>
-      [
+    .map((r) => {
+      const rest = r.points.slice(3);
+      return [
         `**${r.title}** · ${r.org}<br>`,
         `<sub>${[r.period, r.place, r.kind].join(' · ').toUpperCase()}</sub>`,
         '',
         ...r.points.slice(0, 3).map((pt) => `- ${pt}`),
-      ].join('\n'),
-    )
+        ...(rest.length
+          ? ['', '<details>', `<summary>${rest.length} more</summary>`, '', ...rest.map((pt) => `- ${pt}`), '', '</details>']
+          : []),
+      ].join('\n');
+    })
     .join('\n\n');
 
   const stackAlt = esc(
