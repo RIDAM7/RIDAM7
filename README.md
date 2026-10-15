@@ -6,7 +6,7 @@
   workflow re-renders it daily.
 -->
 
-<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,325 contributions and 196 active days in the last 12 months."></a>
+<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 2,343 contributions and 196 active days in the last 12 months."></a>
 
 <p align="center">Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO and GEO firm.</p>
 
@@ -39,7 +39,7 @@
 </picture>
 
 **Software Developer** · MoonPhase Solutions<br>
-<sub>MAR 2026 — PRESENT · INDORE · HYBRID · FULL-TIME</sub>
+<sub>MAR 2026 — OCT 2026 · INDORE · HYBRID · FULL-TIME</sub>
 
 - Designed and built KeySignals (keysignals.tech), the company's AI platform for SEO and Generative Engine Optimization, end to end as the only engineer, owning frontend, backend and integrations. Now live.
 - Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor and keyword research, clustering, content planning, writing, SEO and GEO optimization, and publishing.
@@ -53,7 +53,7 @@
 - Built the control plane in Next.js 14: 67 dashboard screens on PostgreSQL, Redis and BullMQ, multi-tenant with NextAuth, JWT and role-based access control.
 - Before KeySignals, built the backend for the official MasterChef platform (masterchefworld.app) from scratch as the sole backend developer, on Node.js, Express and MongoDB across 6 REST domains, 30 route modules and 68 data models.
 - Engineered real-time event flow over WebSockets that keeps contestants in sync with a Twitch livestream despite per-viewer delay, and migrated 350,000+ existing users onto the new system with zero downtime and no data loss.
-- Built a 41-screen React and TypeScript admin console, integrated AWS S3, SES, Mux and Firebase, and still maintain the app alongside KeySignals.
+- Built a 41-screen React and TypeScript admin console, integrated AWS S3, SES, Mux and Firebase, and maintained the app alongside KeySignals.
 
 </details>
 
