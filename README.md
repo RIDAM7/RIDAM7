@@ -6,7 +6,7 @@
   workflow re-renders it daily.
 -->
 
-<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 3,193 contributions and 223 active days in the last 12 months."></a>
+<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 3,195 contributions and 224 active days in the last 12 months."></a>
 
 <p align="center">Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO, AEO and GEO firm.</p>
 
