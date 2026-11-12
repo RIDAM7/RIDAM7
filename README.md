@@ -6,37 +6,31 @@
   workflow re-renders it daily.
 -->
 
-<a href="https://ridamagrawal.com"><img src="assets/hero.svg" width="100%" alt="Ridam Agrawal. Backend and AI engineer, Indore, India, open to work. 350K+ users migrated, zero downtime, 23 ai agents in one pipeline, 81 backend services shipped, 3 production systems, sole engineer. 3,195 contributions and 224 active days in the last 12 months."></a>
+<a href="https://ridamagrawal.com"><img src="assets/front.svg" width="100%" alt="The Daily Grind, Ridam Agrawal’s paper of record. Front page: The human touch that AI needs. Indore’s founding engineer builds startups their technology from the first line, and keeps a human hand on everything the machines write. By Ridam Agrawal, founding engineer, sole developer at Dekho. Breaking: 350,000 users move house overnight; Twenty-three AI agents found sharing one pipeline; Three production systems, one engineer. Now building: Dekho, live shopping. dekho.shop."></a>
 
-<p align="center">Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO, AEO and GEO firm.</p>
+<p align="center">Ridam Agrawal is a founding engineer in Indore and the sole developer at Dekho, a live-shopping app, working mostly on AI-powered products. Before Dekho: sole engineer on three production systems, a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite.</p>
 
 <p align="center"><b><a href="https://ridamagrawal.com">ridamagrawal.com</a></b>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ridam-agrawal-a5b6763ab/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://x.com/RIDAM_N7">X</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:ridam6419r@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ridamagrawal.com/Ridam_Agrawal_Resume.pdf">Résumé</a></p>
 
-<br>
+<a href="https://ridamagrawal.com/#work"><img src="assets/grind.svg" width="100%" alt="Selected work: things I built alone. Grind, The Daily Grind’s colour supplement. The launch issue. Contents: page 4, MasterChef: The show must resume; page 6, KeySignals: Does ChatGPT know your name?; page 8, PhaseDesk: The standup nobody sits through; page 10, Elivate SEO Audit: Same site, same report; page 12, Easinvy Retail: Below zero, on purpose; page 14, SERP Reader: A results page, saved as data."></a>
+<a href="https://www.masterchefworld.app"><img src="assets/work-masterchef.svg" width="100%" alt="MasterChef, Live television. The show must resume. The official app for a broadcast cooking competition, with a backend built from scratch. Contestants play along on their phones while the show streams live on Twitch, and every viewer sees that stream at a slightly different delay. The event flow runs over WebSockets and is timed to what each person can actually see. Behind the scenes sit an admin console, video through Mux, email through SES and files on S3, on a backend he built as its only backend developer. 68 data models, 41 admin screens, 30 route modules. Take part at masterchefworld.app. Sole backend developer · Set in Node.js, Express &amp; MongoDB."></a>
+<a href="https://keysignals.tech"><img src="assets/work-keysignals.svg" width="100%" alt="KeySignals, Artificial intelligence. Does ChatGPT know your name?. The company’s AI platform for search and AI answers, designed and built end to end by its only engineer. Every page it writes starts from a profile of the business drawn from its own site, rather than from whatever a model happens to remember, and each task goes to Claude, OpenAI or Gemini, whichever suits it. Publishing is not the end of it. It asks ChatGPT, Gemini, Perplexity, AI Overviews and AI Mode whether the brand is named or cited, and a weekly pass over Search Console and Analytics drafts fixes for the pages that slip. 43 route modules, 81 services, 67 dashboard screens, 5 ai engines tracked. Get found at keysignals.tech. Set in Next.js, PostgreSQL, Redis &amp; BullMQ."></a>
+<a href="https://phasedesk.in"><img src="assets/work-phasedesk.svg" width="100%" alt="PhaseDesk, At the office. The standup nobody sits through. An invite-only system that replaced the standups, timesheets and leave every project team used to keep by hand. Each person writes one update a day: what was done, what is in progress, what is blocked. The timer, leave and the week’s report are all built from it. Permissions are enforced in the API rather than the screen, across 13 data models. Reading across the whole organisation takes an explicit admin scope, and nothing is written to a project it cannot be attributed to. 21 screens, 13 data models, 2 applications. Sign in at phasedesk.in. Set in Next.js, Express, Prisma &amp; PostgreSQL."></a>
+<a href="https://elivateseo.com/audit"><img src="assets/work-elivate-seo-audit.svg" width="100%" alt="Elivate SEO Audit, Consumer advice. Same site, same report. A technical audit for search and AI answers. Type a domain, and it reads the site the way a crawler does. It reads the page, robots.txt, llms.txt and the sitemap, and reports across seven areas. There is no model and no paid API behind it, which is why the same site always gets the same report. It also fetches whatever address a stranger types, so the fetcher is a guard first: it checks the address a name resolves to rather than the name, and checks again at every redirect. 7 areas checked, 58 tests, 0 model or paid api calls. Run it at elivateseo.com/audit. Set in Astro, TypeScript &amp; PostgreSQL."></a>
+<a href="https://easinvy.com/saas"><img src="assets/work-easinvy-retail.svg" width="100%" alt="Easinvy Retail, Small business. Below zero, on purpose. Software for small Indian shops, where the screen is a phone held in one hand under shop lighting. Bills, stock, purchases, customers and suppliers, staff attendance, sales reports and Razorpay subscriptions, for many shops at once, each with its own books. Every number is the most legible thing on the screen. Stock is a running figure that can go negative, and the books treat that as information rather than an error. 22 screens, 62 route modules, 27 data models, 12 self-tests. Open shop at easinvy.com/saas. Set in Next.js, Express, Drizzle &amp; PostgreSQL."></a>
+<a href="https://github.com/RIDAM7/SERP-Reader"><img src="assets/work-serp-reader.svg" width="100%" alt="SERP Reader, Open source. A results page, saved as data. A free Chrome extension, made to study which sources Google’s AI Overviews cite. It was built to run the Elivate SEO study. It keeps the organic results, People Also Ask and the AI Overview’s citations as structured data, stored in the browser. The interesting bugs were all in its parser. Chrome and Node disagree about how to read a malformed hostname, and no test could catch it, because the tests run on Node. . Fork it at github.com/RIDAM7/SERP-Reader. Set in TypeScript &amp; esbuild."></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-work-dark.svg">
-  <img src="assets/head-work-light.svg" width="100%" alt="Selected work. Things I built alone. 6 projects.">
-</picture>
-
-<a href="https://www.masterchefworld.app"><img src="assets/work-masterchef.svg" width="100%" alt="MasterChef — Live Competition App. The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime. Stack: Node.js, Express, MongoDB, WebSockets, React, Capacitor, AWS S3 / SES, Mux, Firebase."></a>
-
-<a href="https://keysignals.tech"><img src="assets/work-keysignals.svg" width="100%" alt="KeySignals — AI Platform for SEO and GEO. The company's AI platform for SEO and GEO, built end to end as the only engineer and now live. 23 agents take a site from crawl to published page, then it asks ChatGPT, Gemini, Perplexity and AI Overviews whether the brand is named or cited. Stack: TypeScript, Node.js, Express, PostgreSQL, Redis, BullMQ, Next.js 14, NextAuth, Playwright."></a>
-
-<a href="https://phasedesk.in"><img src="assets/work-phasedesk.svg" width="100%" alt="PhaseDesk — Team Operations. An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models. Stack: Next.js 14, Express, Prisma, PostgreSQL, Zod, JWT."></a>
-
-<a href="https://elivateseo.com/audit"><img src="assets/work-elivate-seo-audit.svg" width="100%" alt="Elivate SEO Audit Tool. Type a domain and it reads the site the way a crawler does, then returns a specific fix per finding instead of a score. It fetches whatever URL a stranger types, so the fetcher is an SSRF guard first, and every redirect hop is checked again. Stack: Astro, TypeScript, Node.js, PostgreSQL, Railway."></a>
-
-<a href="https://easinvy.com/saas"><img src="assets/work-easinvy-retail.svg" width="100%" alt="Easinvy Retail. GST billing and inventory for small Indian shops: bills, stock, purchases, suppliers, staff attendance and Razorpay subscriptions in one system. Designed for a phone held one-handed at a counter, so every number is the most legible thing on the screen. Stack: Next.js 16, React 19, Tailwind CSS 4, Express, Drizzle, PostgreSQL, Razorpay, PDFKit."></a>
-
-<a href="https://github.com/RIDAM7/SERP-Reader"><img src="assets/work-serp-reader.svg" width="100%" alt="SERP Reader. A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node. Stack: TypeScript, Chrome MV3, IndexedDB, esbuild."></a>
-
-<br>
+<img src="assets/commits.svg" width="100%" alt="A year on GitHub: 3,201 contributions and 224 active days in the last 12 months.">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/head-experience-dark.svg">
-  <img src="assets/head-experience-light.svg" width="100%" alt="Experience. Where it was built.">
+  <img src="assets/head-experience-light.svg" width="100%" alt="Experience. The record.">
 </picture>
+
+**Founding Engineer** · Dekho<br>
+<sub>NOV 2026 — PRESENT · INDORE · FULL-TIME</sub>
+
+- Founding engineer and sole developer of Dekho (dekho.shop), a live-shopping app on Android: sellers show the real thing live, and buyers ask anything and put in their own price.
 
 **Software Developer** · MoonPhase Solutions<br>
 <sub>MAR 2026 — OCT 2026 · INDORE · HYBRID · FULL-TIME</sub>
@@ -65,30 +59,9 @@
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-stack-dark.svg">
-  <img src="assets/head-stack-light.svg" width="100%" alt="Stack. What I reach for.">
-</picture>
+<a href="https://ridamagrawal.com/#reach"><img src="assets/puzzle.svg" width="100%" alt="What I reach for: the editor’s crossword, 41 answers, solved in pencil. Design: Next.js, React, Astro, Tailwind CSS, React Query. Marketing: SEO, GEO, AEO, Search Console, GA4. Backend: TypeScript, Node.js, Express, PostgreSQL, JavaScript, SQL, REST APIs, Redis, BullMQ, WebSockets, MongoDB, Mongoose, Prisma, Python. AI: Claude, OpenAI, Gemini, LLMs, Multi-agent systems, Prompt engineering, RAG, Embeddings, Generative AI, LangSmith. DevOps: Git, Railway, Vercel, Docker, AWS S3 / SES, Firebase, Playwright."></a>
 
-<img src="assets/stack.svg" width="100%" alt="Databases: PostgreSQL, MongoDB, Redis. Cloud &amp; tooling: AWS S3 / SES, Firebase, Vercel, Railway, Docker, Git, LangSmith, Playwright. Languages: TypeScript, JavaScript, Python, SQL. Backend: Node.js, Express, REST APIs, BullMQ, Redis, WebSockets, Prisma, Mongoose. AI &amp; ML: Generative AI, LLMs, RAG, Embeddings, Multi-agent systems, Prompt engineering, Claude · OpenAI · Gemini. Frontend: React, Next.js, Astro, Tailwind CSS, React Query.">
+<a href="https://ridamagrawal.com/writing"><img src="assets/writing.svg" width="100%" alt="Writing. Things that broke, and why. Narrowing stops at a function declaration: Seven errors appeared in one component the day type checking was switched on, under a guard that was correct. The difference between the lines that failed and the lines that passed was one keyword. Chrome and Node disagree about this URL: It cost me the number one result twice, and no test could have caught it — because the test suite runs on Node, where the bug does not exist."></a>
+<p align="center"><sub>READ</sub>&nbsp;&nbsp;<a href="https://ridamagrawal.com/writing/narrowing-stops-at-a-function-declaration">Narrowing stops at a function declaration</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ridamagrawal.com/writing/chrome-and-node-disagree-about-this-url">Chrome and Node disagree about this URL</a></p>
 
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/head-writing-dark.svg">
-  <img src="assets/head-writing-light.svg" width="100%" alt="Writing. Things that broke, and why.">
-</picture>
-
-**[Narrowing stops at a function declaration](https://ridamagrawal.com/writing/narrowing-stops-at-a-function-declaration)**<br>
-TypeScript keeps a narrowed type inside an arrow function and loses it inside a hoisted function declaration. Measured across eight compiler versions.<br>
-<sub>16 SEPT 2026 · TOOLING · 5 MIN READ</sub>
-
-**[Chrome and Node disagree about this URL](https://ridamagrawal.com/writing/chrome-and-node-disagree-about-this-url)**<br>
-The same malformed hostname parses to a clean domain in Node and a punycoded mess in Chrome. A bug no test could catch, because the suite runs on Node.<br>
-<sub>06 SEPT 2026 · DEBUGGING · 4 MIN READ</sub>
-
-<p align="right"><sub><a href="https://ridamagrawal.com/writing">ALL WRITING ON RIDAMAGRAWAL.COM</a></sub></p>
-
-<br>
-
-<a href="mailto:ridam6419r@gmail.com"><img src="assets/contact.svg" width="100%" alt="Open to work. Full-stack, backend and software engineer roles. ridam6419r@gmail.com, Indore, India."></a>
+<a href="mailto:ridam6419r@gmail.com"><img src="assets/footer.svg" width="100%" alt="Discuss it over coffee: ridam6419r@gmail.com, Indore, India."></a>

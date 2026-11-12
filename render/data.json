@@ -15,37 +15,116 @@
       "url": "https://x.com/RIDAM_N7"
     }
   ],
-  "long": "Ridam Agrawal is a full-stack developer in Indore with a backend and system-design foundation, working mostly on AI-powered products. Sole engineer on three production systems: a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite. Also runs Elivate SEO, an SEO, AEO and GEO firm.",
-  "headlineStats": [
-    {
-      "value": "350K+",
-      "label": "Users migrated, zero downtime"
+  "long": "Ridam Agrawal is a founding engineer in Indore and the sole developer at Dekho, a live-shopping app, working mostly on AI-powered products. Before Dekho: sole engineer on three production systems, a 23-agent multi-tenant SEO platform, the backend for a live broadcast competition app synced over WebSockets, and an internal operations suite.",
+  "paper": {
+    "masthead": "The Daily Grind",
+    "pencilNote": "proofread by a human",
+    "pencilRole": "founding engineer"
+  },
+  "front": {
+    "earLeft": [
+      "All the news",
+      "that’s fit to deploy."
+    ],
+    "earRight": {
+      "edition": "Late edition",
+      "note": "brewed in Indore"
     },
-    {
-      "value": "23",
-      "label": "AI agents in one pipeline"
+    "motto": "Ridam Agrawal’s paper of record, est. in a coffee cup",
+    "kicker": [
+      "Front page",
+      "Technology"
+    ],
+    "headline": {
+      "top": "The human touch",
+      "before": "that",
+      "ringed": "AI",
+      "after": "needs"
     },
-    {
-      "value": "81",
-      "label": "Backend services shipped"
+    "deck": "Indore’s founding engineer builds startups their technology from the first line, and keeps a human hand on everything the machines write.",
+    "struckRole": "backend & AI engineer",
+    "post": "sole developer at Dekho",
+    "breaking": [
+      {
+        "head": "350,000 users move house overnight",
+        "body": "Not one of them noticed. Zero downtime, no data lost, witnesses confirm."
+      },
+      {
+        "head": "Twenty-three AI agents found sharing one pipeline",
+        "body": "They crawl, research, write and publish off a single queue. The union has yet to comment."
+      },
+      {
+        "head": "Three production systems, one engineer",
+        "body": "Asked who else was on the team, sources say: nobody."
+      }
+    ],
+    "coffee": {
+      "kicker": "From the coffee desk",
+      "head": "Off the clock, a home barista",
+      "cta": "Discuss it over coffee"
     },
-    {
-      "value": "3",
-      "label": "Production systems, sole engineer"
+    "plate1": {
+      "mark": "Plate I.",
+      "caption": "The human hand is Michelangelo’s, c. 1512. The other is arithmetic, waiting for it."
+    },
+    "plate2": {
+      "mark": "Plate II.",
+      "caption": "Now building: Dekho, live shopping.",
+      "url": "dekho.shop"
     }
-  ],
-  "projects": [
+  },
+  "issue": {
+    "masthead": "Grind",
+    "strap": "The Daily Grind’s colour supplement",
+    "headline": "The launch issue",
+    "sub": "Six products, from an empty repository to a live address.",
+    "sticker": [
+      "6",
+      "projects",
+      "inside"
+    ],
+    "letter": "Every picture in this issue is a product’s own front page, and every address under one is live. Where a project turned up a bug worth telling, the story is in Writing, at the back of the paper.",
+    "coverLines": [
+      {
+        "page": 6,
+        "text": "What ChatGPT says about your business"
+      },
+      {
+        "page": 10,
+        "text": "Free advice that won’t give you a grade"
+      },
+      {
+        "page": 12,
+        "text": "Billing made for one hand and a busy counter"
+      }
+    ],
+    "sun": "#f5c842",
+    "cream": "#f7eedb",
+    "ink": "#1c1a17"
+  },
+  "features": [
     {
       "slug": "masterchef",
-      "title": "MasterChef — Live Competition App",
-      "file": "masterchef.ts",
-      "status": null,
-      "line": "The official platform for a broadcast client, built as sole backend developer. WebSockets keep contestants in sync with a Twitch livestream despite per-viewer delay. The hard part was migrating 350,000+ user records with zero downtime.",
-      "stats": [
-        {
-          "value": "350K+",
-          "label": "Records migrated"
-        },
+      "name": "MasterChef",
+      "section": "Live television",
+      "headline": "The show must resume",
+      "standfirst": "The official app for a broadcast cooking competition, with a backend built from scratch.",
+      "story": [
+        "Contestants play along on their phones while the show streams live on Twitch, and every viewer sees that stream at a slightly different delay. The event flow runs over WebSockets and is timed to what each person can actually see.",
+        "Behind the scenes sit an admin console, video through Mux, email through SES and files on S3, on a backend he built as its only backend developer."
+      ],
+      "pull": "Refresh, rejoin late or switch phones: the contest is where you left it.",
+      "cta": "Take part at",
+      "credits": "Sole backend developer · Set in Node.js, Express & MongoDB",
+      "theme": {
+        "name": "tomato",
+        "bg": "#b5311d",
+        "fg": "#f7eedb",
+        "accent": "#f7eedb",
+        "tint": "#fbe4dc",
+        "deep": "#b5311d"
+      },
+      "figures": [
         {
           "value": "68",
           "label": "Data models"
@@ -59,79 +138,38 @@
           "label": "Route modules"
         }
       ],
-      "stack": [
-        {
-          "label": "Node.js",
-          "abbr": "N",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "MongoDB",
-          "abbr": "MG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "WebSockets",
-          "abbr": "WS",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "React",
-          "abbr": "RC",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Capacitor",
-          "abbr": "CP",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "AWS S3 / SES",
-          "abbr": "S3",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Mux",
-          "abbr": "MX",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Firebase",
-          "abbr": "FB",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "Express",
-        "version": "4.21.2"
-      },
       "href": "https://www.masterchefworld.app",
-      "hrefLabel": "Live",
-      "link": "https://www.masterchefworld.app",
+      "address": "masterchefworld.app",
+      "seeAlso": null,
       "image": "work/masterchef.jpg",
-      "imageAlt": "The El Reto de MasterChef homepage: 'The next one could be you.' set over photos of contestants cooking."
+      "imageAlt": "The El Reto de MasterChef homepage: 'The next one could be you.' set over photos of contestants cooking.",
+      "pages": [
+        4,
+        5
+      ]
     },
     {
       "slug": "keysignals",
-      "title": "KeySignals — AI Platform for SEO and GEO",
-      "file": "keysignals.tsx",
-      "status": null,
-      "line": "The company's AI platform for SEO and GEO, built end to end as the only engineer and now live. 23 agents take a site from crawl to published page, then it asks ChatGPT, Gemini, Perplexity and AI Overviews whether the brand is named or cited.",
-      "stats": [
+      "name": "KeySignals",
+      "section": "Artificial intelligence",
+      "headline": "Does ChatGPT know your name?",
+      "standfirst": "The company’s AI platform for search and AI answers, designed and built end to end by its only engineer.",
+      "story": [
+        "Every page it writes starts from a profile of the business drawn from its own site, rather than from whatever a model happens to remember, and each task goes to Claude, OpenAI or Gemini, whichever suits it.",
+        "Publishing is not the end of it. It asks ChatGPT, Gemini, Perplexity, AI Overviews and AI Mode whether the brand is named or cited, and a weekly pass over Search Console and Analytics drafts fixes for the pages that slip."
+      ],
+      "pull": "The pages that slip get a fix, and the fix waits for a yes.",
+      "cta": "Get found at",
+      "credits": "Set in Next.js, PostgreSQL, Redis & BullMQ",
+      "theme": {
+        "name": "cobalt",
+        "bg": "#2340b8",
+        "fg": "#f7eedb",
+        "accent": "#f5c842",
+        "tint": "#e6eafb",
+        "deep": "#2340b8"
+      },
+      "figures": [
         {
           "value": "43",
           "label": "Route modules"
@@ -149,79 +187,38 @@
           "label": "AI engines tracked"
         }
       ],
-      "stack": [
-        {
-          "label": "TypeScript",
-          "abbr": "TS",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Node.js",
-          "abbr": "N",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "PostgreSQL",
-          "abbr": "PG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Redis",
-          "abbr": "RD",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "BullMQ",
-          "abbr": "BQ",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Next.js 14",
-          "abbr": "NX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "NextAuth",
-          "abbr": "NA",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Playwright",
-          "abbr": "PW",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "Next.js",
-        "version": "14.2.35"
-      },
       "href": "https://keysignals.tech",
-      "hrefLabel": "Live",
-      "link": "https://keysignals.tech",
+      "address": "keysignals.tech",
+      "seeAlso": null,
       "image": "work/keysignals.jpg",
-      "imageAlt": "The KeySignals homepage: 'Get found on Google and in AI answers', beside the product's dashboard for an example site."
+      "imageAlt": "The KeySignals homepage: 'Get found on Google and in AI answers', beside the product's dashboard for an example site.",
+      "pages": [
+        6,
+        7
+      ]
     },
     {
       "slug": "phasedesk",
-      "title": "PhaseDesk — Team Operations",
-      "file": "phasedesk.tsx",
-      "status": null,
-      "line": "An invite-only internal system that replaced manual standup, timesheet and leave tracking for every project team. Authorization is enforced in the API rather than the UI, across 13 data models.",
-      "stats": [
+      "name": "PhaseDesk",
+      "section": "At the office",
+      "headline": "The standup nobody sits through",
+      "standfirst": "An invite-only system that replaced the standups, timesheets and leave every project team used to keep by hand.",
+      "story": [
+        "Each person writes one update a day: what was done, what is in progress, what is blocked. The timer, leave and the week’s report are all built from it.",
+        "Permissions are enforced in the API rather than the screen, across 13 data models. Reading across the whole organisation takes an explicit admin scope, and nothing is written to a project it cannot be attributed to."
+      ],
+      "pull": "There is no sign-up page. An admin sends the invite.",
+      "cta": "Sign in at",
+      "credits": "Set in Next.js, Express, Prisma & PostgreSQL",
+      "theme": {
+        "name": "cream",
+        "bg": "#f4ead3",
+        "fg": "#1c1a17",
+        "accent": "#145c43",
+        "tint": "#fffaf0",
+        "deep": "#145c43"
+      },
+      "figures": [
         {
           "value": "21",
           "label": "Screens"
@@ -235,61 +232,38 @@
           "label": "Applications"
         }
       ],
-      "stack": [
-        {
-          "label": "Next.js 14",
-          "abbr": "NX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Prisma",
-          "abbr": "PR",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "PostgreSQL",
-          "abbr": "PG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Zod",
-          "abbr": "ZD",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "JWT",
-          "abbr": "JW",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "Next.js",
-        "version": "14.2.15"
-      },
       "href": "https://phasedesk.in",
-      "hrefLabel": "Live",
-      "link": "https://phasedesk.in",
+      "address": "phasedesk.in",
+      "seeAlso": null,
       "image": "work/phasedesk.jpg",
-      "imageAlt": "The PhaseDesk homepage: “Your team's day, written down once” beside an example daily update with completed work, work in progress and a blocker."
+      "imageAlt": "The PhaseDesk homepage: “Your team's day, written down once” beside an example daily update with completed work, work in progress and a blocker.",
+      "pages": [
+        8,
+        9
+      ]
     },
     {
       "slug": "elivate-seo-audit",
-      "title": "Elivate SEO Audit Tool",
-      "file": "elivate-seo-audit.astro",
-      "status": null,
-      "line": "Type a domain and it reads the site the way a crawler does, then returns a specific fix per finding instead of a score. It fetches whatever URL a stranger types, so the fetcher is an SSRF guard first, and every redirect hop is checked again.",
-      "stats": [
+      "name": "Elivate SEO Audit",
+      "section": "Consumer advice",
+      "headline": "Same site, same report",
+      "standfirst": "A technical audit for search and AI answers. Type a domain, and it reads the site the way a crawler does.",
+      "story": [
+        "It reads the page, robots.txt, llms.txt and the sitemap, and reports across seven areas. There is no model and no paid API behind it, which is why the same site always gets the same report.",
+        "It also fetches whatever address a stranger types, so the fetcher is a guard first: it checks the address a name resolves to rather than the name, and checks again at every redirect."
+      ],
+      "pull": "An address a stranger types is hostile until checked.",
+      "cta": "Run it at",
+      "credits": "Set in Astro, TypeScript & PostgreSQL",
+      "theme": {
+        "name": "pink",
+        "bg": "#f2a7b5",
+        "fg": "#1c1a17",
+        "accent": "#7a1b10",
+        "tint": "#fde9ed",
+        "deep": "#9b2341"
+      },
+      "figures": [
         {
           "value": "7",
           "label": "Areas checked"
@@ -303,55 +277,38 @@
           "label": "Model or paid API calls"
         }
       ],
-      "stack": [
-        {
-          "label": "Astro",
-          "abbr": "AS",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "TypeScript",
-          "abbr": "TS",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Node.js",
-          "abbr": "N",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "PostgreSQL",
-          "abbr": "PG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Railway",
-          "abbr": "RW",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "Astro",
-        "version": "7.2.10"
-      },
       "href": "https://elivateseo.com/audit",
-      "hrefLabel": "Live",
-      "link": "https://elivateseo.com/audit",
+      "address": "elivateseo.com/audit",
+      "seeAlso": null,
       "image": "work/elivate-seo-audit.jpg",
-      "imageAlt": "The Elivate SEO free site audit card: 'A fix for every finding, not a score.'"
+      "imageAlt": "The Elivate SEO free site audit card: 'A fix for every finding, not a score.'",
+      "pages": [
+        10,
+        11
+      ]
     },
     {
       "slug": "easinvy-retail",
-      "title": "Easinvy Retail",
-      "file": "easinvy-retail.tsx",
-      "status": null,
-      "line": "GST billing and inventory for small Indian shops: bills, stock, purchases, suppliers, staff attendance and Razorpay subscriptions in one system. Designed for a phone held one-handed at a counter, so every number is the most legible thing on the screen.",
-      "stats": [
+      "name": "Easinvy Retail",
+      "section": "Small business",
+      "headline": "Below zero, on purpose",
+      "standfirst": "Software for small Indian shops, where the screen is a phone held in one hand under shop lighting.",
+      "story": [
+        "Bills, stock, purchases, customers and suppliers, staff attendance, sales reports and Razorpay subscriptions, for many shops at once, each with its own books.",
+        "Every number is the most legible thing on the screen. Stock is a running figure that can go negative, and the books treat that as information rather than an error."
+      ],
+      "pull": "One system rather than four.",
+      "cta": "Open shop at",
+      "credits": "Set in Next.js, Express, Drizzle & PostgreSQL",
+      "theme": {
+        "name": "mint",
+        "bg": "#a8dcc5",
+        "fg": "#0f4f39",
+        "accent": "#0f4f39",
+        "tint": "#e1f3ea",
+        "deep": "#0f4f39"
+      },
+      "figures": [
         {
           "value": "22",
           "label": "Screens"
@@ -369,117 +326,71 @@
           "label": "Self-tests"
         }
       ],
-      "stack": [
-        {
-          "label": "Next.js 16",
-          "abbr": "NX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "React 19",
-          "abbr": "RC",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Tailwind CSS 4",
-          "abbr": "TW",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Drizzle",
-          "abbr": "DZ",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "PostgreSQL",
-          "abbr": "PG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Razorpay",
-          "abbr": "RZ",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "PDFKit",
-          "abbr": "PK",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        }
-      ],
-      "framework": {
-        "name": "Next.js",
-        "version": "16.1.6"
-      },
       "href": "https://easinvy.com/saas",
-      "hrefLabel": "Live",
-      "link": "https://easinvy.com/saas",
+      "address": "easinvy.com/saas",
+      "seeAlso": null,
       "image": "work/easinvy-retail.jpg",
-      "imageAlt": "The Easinvy Retail card: 'GST billing and stock, built for the counter', beside a sample GST bill."
+      "imageAlt": "The Easinvy Retail card: 'GST billing and stock, built for the counter', beside a sample GST bill.",
+      "pages": [
+        12,
+        13
+      ]
     },
     {
       "slug": "serp-reader",
-      "title": "SERP Reader",
-      "file": "serp-reader.ts",
-      "status": "Open source",
-      "line": "A Chrome MV3 extension that captures search results as structured data. Chrome and Node disagree about how to parse a malformed hostname, and no test could catch it, because the suite runs on Node.",
-      "stats": [],
-      "stack": [
-        {
-          "label": "TypeScript",
-          "abbr": "TS",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Chrome MV3",
-          "abbr": "MV",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "IndexedDB",
-          "abbr": "IX",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "esbuild",
-          "abbr": "ES",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        }
+      "name": "SERP Reader",
+      "section": "Open source",
+      "headline": "A results page, saved as data",
+      "standfirst": "A free Chrome extension, made to study which sources Google’s AI Overviews cite.",
+      "story": [
+        "It was built to run the Elivate SEO study. It keeps the organic results, People Also Ask and the AI Overview’s citations as structured data, stored in the browser.",
+        "The interesting bugs were all in its parser. Chrome and Node disagree about how to read a malformed hostname, and no test could catch it, because the tests run on Node."
       ],
-      "framework": {
-        "name": "esbuild",
-        "version": "0.25.0"
+      "pull": null,
+      "cta": "Fork it at",
+      "credits": "Set in TypeScript & esbuild",
+      "theme": {
+        "name": "sunflower",
+        "bg": "#f5c842",
+        "fg": "#1c1a17",
+        "accent": "#a3261a",
+        "tint": "#fdf3cf",
+        "deep": "#a3261a"
       },
+      "figures": [],
       "href": "https://github.com/RIDAM7/SERP-Reader",
-      "hrefLabel": "Source",
-      "link": "https://github.com/RIDAM7/SERP-Reader",
+      "address": "github.com/RIDAM7/SERP-Reader",
+      "seeAlso": {
+        "text": "How that was found is in Writing",
+        "href": "https://ridamagrawal.com/writing/chrome-and-node-disagree-about-this-url"
+      },
       "image": "work/serp-reader.jpg",
-      "imageAlt": "The SERP Reader card: a Google results page with the extension's Collect button over it."
+      "imageAlt": "The SERP Reader card: a Google results page with the extension's Collect button over it.",
+      "pages": [
+        14,
+        15
+      ]
     }
   ],
   "roles": [
+    {
+      "title": "Founding Engineer",
+      "org": "Dekho",
+      "kind": "Full-time",
+      "period": "Nov 2026 — Present",
+      "place": "Indore",
+      "current": true,
+      "points": [
+        "Founding engineer and sole developer of Dekho (dekho.shop), a live-shopping app on Android: sellers show the real thing live, and buyers ask anything and put in their own price."
+      ]
+    },
     {
       "title": "Software Developer",
       "org": "MoonPhase Solutions",
       "kind": "Full-time",
       "period": "Mar 2026 — Oct 2026",
       "place": "Indore · Hybrid",
+      "current": false,
       "points": [
         "Designed and built KeySignals (keysignals.tech), the company's AI platform for SEO and Generative Engine Optimization, end to end as the only engineer, owning frontend, backend and integrations. Now live.",
         "Architected a pipeline of 23 AI agents, coordinated by a queue-backed orchestrator on BullMQ and Redis, covering crawling, competitor and keyword research, clustering, content planning, writing, SEO and GEO optimization, and publishing.",
@@ -498,307 +409,597 @@
       "kind": "Freelance",
       "period": "Jan 2026 — Feb 2026",
       "place": "Remote",
+      "current": false,
       "points": [
         "Independently delivered a full-stack product for a 30,000+ member esports community, from architecture to deployment in two months.",
         "Discord and Google OAuth with JWT sessions, plus three core modules — teams, tournaments, scrims — with approval workflows, RBAC, audit logging and a ban system."
       ]
     }
   ],
-  "stack": [
-    {
-      "name": "Databases",
-      "role": "Three stores, no vector DB",
-      "mark": {
-        "abbr": "DB",
-        "fill": "#44d6d6",
-        "letter": "#1e1e1e"
+  "puzzle": {
+    "desks": [
+      {
+        "id": "design",
+        "name": "Design",
+        "line": "How a product looks, reads and moves.",
+        "tools": [
+          {
+            "id": "nextjs",
+            "name": "Next.js",
+            "clue": "Sixty-seven dashboard screens deep",
+            "answer": "NEXTJS",
+            "enumeration": "4.2"
+          },
+          {
+            "id": "react",
+            "name": "React",
+            "clue": "Forty-one admin screens at MasterChef",
+            "answer": "REACT",
+            "enumeration": "5"
+          },
+          {
+            "id": "astro",
+            "name": "Astro",
+            "clue": "This paper is printed on it",
+            "answer": "ASTRO",
+            "enumeration": "5"
+          },
+          {
+            "id": "tailwind-css",
+            "name": "Tailwind CSS",
+            "clue": "Styles an app held one-handed at a shop counter",
+            "answer": "TAILWINDCSS",
+            "enumeration": "8,3"
+          },
+          {
+            "id": "react-query",
+            "name": "React Query",
+            "clue": "The state manager; the server is the store",
+            "answer": "REACTQUERY",
+            "enumeration": "5,5"
+          }
+        ]
       },
-      "volume": "81 data models across 2 stores",
-      "col": 2,
-      "row": 1,
-      "items": [
-        {
-          "label": "PostgreSQL",
-          "abbr": "PG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "MongoDB",
-          "abbr": "MG",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Redis",
-          "abbr": "RD",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
-        }
-      ]
-    },
-    {
-      "name": "Cloud & tooling",
-      "role": "Where all of it runs",
-      "mark": {
-        "abbr": "CL",
-        "fill": "#fea47c",
-        "letter": "#1e1e1e"
+      {
+        "id": "marketing",
+        "name": "Marketing",
+        "line": "Being found by search engines, and named in AI answers.",
+        "tools": [
+          {
+            "id": "seo",
+            "name": "SEO",
+            "clue": "GEO’s older sibling",
+            "answer": "SEO",
+            "enumeration": "3"
+          },
+          {
+            "id": "geo",
+            "name": "GEO",
+            "clue": "Getting named in AI answers",
+            "answer": "GEO",
+            "enumeration": "3"
+          },
+          {
+            "id": "aeo",
+            "name": "AEO",
+            "clue": "Answer-engine work, for short",
+            "answer": "AEO",
+            "enumeration": "3"
+          },
+          {
+            "id": "search-console",
+            "name": "Search Console",
+            "clue": "Read weekly for pages that slip",
+            "answer": "SEARCHCONSOLE",
+            "enumeration": "6,7"
+          },
+          {
+            "id": "ga4",
+            "name": "GA4",
+            "clue": "Search Console’s partner in the weekly loop",
+            "answer": "GA4",
+            "enumeration": "3"
+          }
+        ]
       },
-      "volume": "4 deploys answering right now",
-      "col": 3,
-      "row": 1,
-      "items": [
-        {
-          "label": "AWS S3 / SES",
-          "abbr": "S3",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Firebase",
-          "abbr": "FB",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Vercel",
-          "abbr": "VC",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Railway",
-          "abbr": "RW",
-          "fill": "#fea47c",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Docker",
-          "abbr": "DK",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Git",
-          "abbr": "GT",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "LangSmith",
-          "abbr": "LS",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Playwright",
-          "abbr": "PW",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        }
-      ]
-    },
-    {
-      "name": "Languages",
-      "role": "The language of every service",
-      "mark": {
-        "abbr": "LG",
-        "fill": "#88c1ff",
-        "letter": "#1e1e1e"
+      {
+        "id": "backend",
+        "name": "Backend",
+        "line": "System design: the data, the queues and the services between them.",
+        "tools": [
+          {
+            "id": "typescript",
+            "name": "TypeScript",
+            "clue": "Strict mode in every repo",
+            "answer": "TYPESCRIPT",
+            "enumeration": "10"
+          },
+          {
+            "id": "nodejs",
+            "name": "Node.js",
+            "clue": "Runs the 81 services",
+            "answer": "NODEJS",
+            "enumeration": "4.2"
+          },
+          {
+            "id": "express",
+            "name": "Express",
+            "clue": "In four of six projects, never in a hurry",
+            "answer": "EXPRESS",
+            "enumeration": "7"
+          },
+          {
+            "id": "postgresql",
+            "name": "PostgreSQL",
+            "clue": "Keeps the embeddings too, so no vector DB",
+            "answer": "POSTGRESQL",
+            "enumeration": "10"
+          },
+          {
+            "id": "javascript",
+            "name": "JavaScript",
+            "clue": "For when the runtime is older than the toolchain",
+            "answer": "JAVASCRIPT",
+            "enumeration": "10"
+          },
+          {
+            "id": "sql",
+            "name": "SQL",
+            "clue": "Written by hand when the ORM got in the way",
+            "answer": "SQL",
+            "enumeration": "3"
+          },
+          {
+            "id": "rest-apis",
+            "name": "REST APIs",
+            "clue": "Six domains of them at MasterChef",
+            "answer": "RESTAPIS",
+            "enumeration": "4,4"
+          },
+          {
+            "id": "redis",
+            "name": "Redis",
+            "clue": "Cache by day, queue by night",
+            "answer": "REDIS",
+            "enumeration": "5"
+          },
+          {
+            "id": "bullmq",
+            "name": "BullMQ",
+            "clue": "The queue behind 23 agents",
+            "answer": "BULLMQ",
+            "enumeration": "6"
+          },
+          {
+            "id": "websockets",
+            "name": "WebSockets",
+            "clue": "Kept contestants in step with a delayed Twitch stream",
+            "answer": "WEBSOCKETS",
+            "enumeration": "10"
+          },
+          {
+            "id": "mongodb",
+            "name": "MongoDB",
+            "clue": "Home to 68 data models",
+            "answer": "MONGODB",
+            "enumeration": "7"
+          },
+          {
+            "id": "mongoose",
+            "name": "Mongoose",
+            "clue": "Handles Mongo; not the small carnivore",
+            "answer": "MONGOOSE",
+            "enumeration": "8"
+          },
+          {
+            "id": "prisma",
+            "name": "Prisma",
+            "clue": "PhaseDesk talks to Postgres through it",
+            "answer": "PRISMA",
+            "enumeration": "6"
+          },
+          {
+            "id": "python",
+            "name": "Python",
+            "clue": "Not a snake, on this page",
+            "answer": "PYTHON",
+            "enumeration": "6"
+          }
+        ]
       },
-      "volume": null,
-      "col": 1,
-      "row": 1,
-      "items": [
-        {
-          "label": "TypeScript",
-          "abbr": "TS",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "JavaScript",
-          "abbr": "JS",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "Python",
-          "abbr": "PY",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        },
-        {
-          "label": "SQL",
-          "abbr": "SQL",
-          "fill": "#88c1ff",
-          "letter": "#1e1e1e"
-        }
-      ]
-    },
-    {
-      "name": "Backend",
-      "role": "What the services are made of",
-      "mark": {
-        "abbr": "BE",
-        "fill": "#82d494",
-        "letter": "#1e1e1e"
+      {
+        "id": "ai",
+        "name": "AI",
+        "line": "Pipelines, integrations and models that hold up in production.",
+        "tools": [
+          {
+            "id": "claude",
+            "name": "Claude",
+            "clue": "One of three models, routed per task",
+            "answer": "CLAUDE",
+            "enumeration": "6"
+          },
+          {
+            "id": "openai",
+            "name": "OpenAI",
+            "clue": "Another of the three, picked on cost and latency",
+            "answer": "OPENAI",
+            "enumeration": "6"
+          },
+          {
+            "id": "gemini",
+            "name": "Gemini",
+            "clue": "The third of the three, and a star sign",
+            "answer": "GEMINI",
+            "enumeration": "6"
+          },
+          {
+            "id": "llms",
+            "name": "LLMs",
+            "clue": "What the router routes between",
+            "answer": "LLMS",
+            "enumeration": "4"
+          },
+          {
+            "id": "multi-agent-systems",
+            "name": "Multi-agent systems",
+            "clue": "Twenty-three agents, one pipeline",
+            "answer": "MULTIAGENTSYSTEMS",
+            "enumeration": "5-5,7"
+          },
+          {
+            "id": "prompt-engineering",
+            "name": "Prompt engineering",
+            "clue": "Not the work, says the editor; retrieval is",
+            "answer": "PROMPTENGINEERING",
+            "enumeration": "6,11"
+          },
+          {
+            "id": "rag",
+            "name": "RAG",
+            "clue": "Grounding, not a cleaning cloth",
+            "answer": "RAG",
+            "enumeration": "3"
+          },
+          {
+            "id": "embeddings",
+            "name": "Embeddings",
+            "clue": "Batched and cached in Postgres",
+            "answer": "EMBEDDINGS",
+            "enumeration": "10"
+          },
+          {
+            "id": "generative-ai",
+            "name": "Generative AI",
+            "clue": "Drafts the fix; a person approves it",
+            "answer": "GENERATIVEAI",
+            "enumeration": "10,2"
+          },
+          {
+            "id": "langsmith",
+            "name": "LangSmith",
+            "clue": "Reads a bad generation back",
+            "answer": "LANGSMITH",
+            "enumeration": "9"
+          }
+        ]
       },
-      "volume": "81 services · 43 route modules",
-      "col": 2,
-      "row": 2,
-      "items": [
+      {
+        "id": "devops",
+        "name": "DevOps",
+        "line": "Builds and deploys, and the machinery that keeps them uneventful.",
+        "tools": [
+          {
+            "id": "git",
+            "name": "Git",
+            "clue": "Every deploy comes from a branch of it",
+            "answer": "GIT",
+            "enumeration": "3"
+          },
+          {
+            "id": "railway",
+            "name": "Railway",
+            "clue": "Where KeySignals runs; no trains",
+            "answer": "RAILWAY",
+            "enumeration": "7"
+          },
+          {
+            "id": "vercel",
+            "name": "Vercel",
+            "clue": "Push to main and this paper is out",
+            "answer": "VERCEL",
+            "enumeration": "6"
+          },
+          {
+            "id": "docker",
+            "name": "Docker",
+            "clue": "Images built straight from the repo",
+            "answer": "DOCKER",
+            "enumeration": "6"
+          },
+          {
+            "id": "aws",
+            "name": "AWS S3 / SES",
+            "clue": "Landlord of S3 and SES",
+            "answer": "AWS",
+            "enumeration": "3"
+          },
+          {
+            "id": "firebase",
+            "name": "Firebase",
+            "clue": "Sent MasterChef its notifications",
+            "answer": "FIREBASE",
+            "enumeration": "8"
+          },
+          {
+            "id": "playwright",
+            "name": "Playwright",
+            "clue": "Crawls like a browser because it is one",
+            "answer": "PLAYWRIGHT",
+            "enumeration": "10"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "cols": 30,
+      "rows": 19,
+      "seed": 1980,
+      "words": [
         {
-          "label": "Node.js",
-          "abbr": "N",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
+          "id": "nextjs",
+          "dir": "D",
+          "r": 13,
+          "c": 22
         },
         {
-          "label": "Express",
-          "abbr": "EX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
+          "id": "react",
+          "dir": "D",
+          "r": 1,
+          "c": 27
         },
         {
-          "label": "REST APIs",
-          "abbr": "RE",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
+          "id": "astro",
+          "dir": "A",
+          "r": 5,
+          "c": 25
         },
         {
-          "label": "BullMQ",
-          "abbr": "BQ",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
+          "id": "tailwind-css",
+          "dir": "A",
+          "r": 12,
+          "c": 4
         },
         {
-          "label": "Redis",
-          "abbr": "RD",
-          "fill": "#44d6d6",
-          "letter": "#1e1e1e"
+          "id": "react-query",
+          "dir": "A",
+          "r": 15,
+          "c": 10
         },
         {
-          "label": "WebSockets",
-          "abbr": "WS",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
+          "id": "seo",
+          "dir": "A",
+          "r": 1,
+          "c": 15
         },
         {
-          "label": "Prisma",
-          "abbr": "PR",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
+          "id": "geo",
+          "dir": "A",
+          "r": 14,
+          "c": 21
         },
         {
-          "label": "Mongoose",
-          "abbr": "MS",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
-        }
-      ]
-    },
-    {
-      "name": "AI & ML",
-      "role": "The 23-agent pipeline's parts",
-      "mark": {
-        "abbr": "AI",
-        "fill": "#caacff",
-        "letter": "#1e1e1e"
-      },
-      "volume": "23 agents · 3 providers · 1 router",
-      "col": 3,
-      "row": 2,
-      "items": [
-        {
-          "label": "Generative AI",
-          "capability": true
+          "id": "aeo",
+          "dir": "A",
+          "r": 7,
+          "c": 22
         },
         {
-          "label": "LLMs",
-          "capability": true
+          "id": "search-console",
+          "dir": "A",
+          "r": 4,
+          "c": 3
         },
         {
-          "label": "RAG",
-          "capability": true
+          "id": "ga4",
+          "dir": "A",
+          "r": 11,
+          "c": 20
         },
         {
-          "label": "Embeddings",
-          "capability": true
+          "id": "typescript",
+          "dir": "A",
+          "r": 18,
+          "c": 18
         },
         {
-          "label": "Multi-agent systems",
-          "capability": true
+          "id": "nodejs",
+          "dir": "D",
+          "r": 6,
+          "c": 24
         },
         {
-          "label": "Prompt engineering",
-          "capability": true
+          "id": "express",
+          "dir": "A",
+          "r": 9,
+          "c": 2
         },
         {
-          "label": "Claude · OpenAI · Gemini",
-          "capability": true
-        }
-      ]
-    },
-    {
-      "name": "Frontend",
-      "role": "Consoles and admin panels",
-      "mark": {
-        "abbr": "FE",
-        "fill": "#82d494",
-        "letter": "#1e1e1e"
-      },
-      "volume": "67 dashboard screens · 41 admin screens",
-      "col": 2,
-      "row": 3,
-      "items": [
-        {
-          "label": "React",
-          "abbr": "RC",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
+          "id": "postgresql",
+          "dir": "D",
+          "r": 9,
+          "c": 4
         },
         {
-          "label": "Next.js",
-          "abbr": "NX",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
+          "id": "javascript",
+          "dir": "D",
+          "r": 9,
+          "c": 18
         },
         {
-          "label": "Astro",
-          "abbr": "AS",
-          "fill": "#82d494",
-          "letter": "#1e1e1e"
+          "id": "sql",
+          "dir": "A",
+          "r": 11,
+          "c": 24
         },
         {
-          "label": "Tailwind CSS",
-          "abbr": "TW",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
+          "id": "rest-apis",
+          "dir": "D",
+          "r": 0,
+          "c": 5
         },
         {
-          "label": "React Query",
-          "abbr": "RQ",
-          "fill": "#caacff",
-          "letter": "#1e1e1e"
+          "id": "redis",
+          "dir": "D",
+          "r": 7,
+          "c": 28
+        },
+        {
+          "id": "bullmq",
+          "dir": "D",
+          "r": 13,
+          "c": 0
+        },
+        {
+          "id": "websockets",
+          "dir": "A",
+          "r": 7,
+          "c": 2
+        },
+        {
+          "id": "mongodb",
+          "dir": "D",
+          "r": 0,
+          "c": 17
+        },
+        {
+          "id": "mongoose",
+          "dir": "A",
+          "r": 0,
+          "c": 17
+        },
+        {
+          "id": "prisma",
+          "dir": "A",
+          "r": 0,
+          "c": 4
+        },
+        {
+          "id": "python",
+          "dir": "A",
+          "r": 16,
+          "c": 20
+        },
+        {
+          "id": "claude",
+          "dir": "D",
+          "r": 12,
+          "c": 16
+        },
+        {
+          "id": "openai",
+          "dir": "D",
+          "r": 7,
+          "c": 6
+        },
+        {
+          "id": "gemini",
+          "dir": "A",
+          "r": 10,
+          "c": 10
+        },
+        {
+          "id": "llms",
+          "dir": "A",
+          "r": 2,
+          "c": 2
+        },
+        {
+          "id": "multi-agent-systems",
+          "dir": "D",
+          "r": 2,
+          "c": 14
+        },
+        {
+          "id": "prompt-engineering",
+          "dir": "D",
+          "r": 2,
+          "c": 10
+        },
+        {
+          "id": "rag",
+          "dir": "D",
+          "r": 14,
+          "c": 12
+        },
+        {
+          "id": "embeddings",
+          "dir": "D",
+          "r": 3,
+          "c": 20
+        },
+        {
+          "id": "generative-ai",
+          "dir": "A",
+          "r": 3,
+          "c": 17
+        },
+        {
+          "id": "langsmith",
+          "dir": "A",
+          "r": 16,
+          "c": 0
+        },
+        {
+          "id": "git",
+          "dir": "D",
+          "r": 16,
+          "c": 27
+        },
+        {
+          "id": "railway",
+          "dir": "D",
+          "r": 2,
+          "c": 22
+        },
+        {
+          "id": "vercel",
+          "dir": "A",
+          "r": 14,
+          "c": 2
+        },
+        {
+          "id": "docker",
+          "dir": "A",
+          "r": 8,
+          "c": 24
+        },
+        {
+          "id": "aws",
+          "dir": "A",
+          "r": 12,
+          "c": 18
+        },
+        {
+          "id": "firebase",
+          "dir": "A",
+          "r": 6,
+          "c": 13
+        },
+        {
+          "id": "playwright",
+          "dir": "A",
+          "r": 18,
+          "c": 3
         }
       ]
     }
-  ],
-  "concepts": [
-    "System design",
-    "Multi-tenant architecture",
-    "SaaS",
-    "Authentication",
-    "OAuth 2.0",
-    "JWT",
-    "RBAC"
-  ],
+  },
   "writing": [
     {
       "title": "Narrowing stops at a function declaration",
       "description": "TypeScript keeps a narrowed type inside an arrow function and loses it inside a hoisted function declaration. Measured across eight compiler versions.",
+      "standfirst": "Seven errors appeared in one component the day type checking was switched on, under a guard that was correct. The difference between the lines that failed and the lines that passed was one keyword.",
       "date": "2026-09-16",
       "topic": "Tooling",
       "minutes": 5,
@@ -807,6 +1008,7 @@
     {
       "title": "Chrome and Node disagree about this URL",
       "description": "The same malformed hostname parses to a clean domain in Node and a punycoded mess in Chrome. A bug no test could catch, because the suite runs on Node.",
+      "standfirst": "It cost me the number one result twice, and no test could have caught it — because the test suite runs on Node, where the bug does not exist.",
       "date": "2026-09-06",
       "topic": "Debugging",
       "minutes": 4,
