@@ -20,7 +20,7 @@
 <a href="https://easinvy.com/saas"><img src="assets/work-easinvy-retail.svg" width="100%" alt="Easinvy Retail, Small business. Below zero, on purpose. Software for small Indian shops, where the screen is a phone held in one hand under shop lighting. Bills, stock, purchases, customers and suppliers, staff attendance, sales reports and Razorpay subscriptions, for many shops at once, each with its own books. Every number is the most legible thing on the screen. Stock is a running figure that can go negative, and the books treat that as information rather than an error. 22 screens, 62 route modules, 27 data models, 12 self-tests. Open shop at easinvy.com/saas. Set in Next.js, Express, Drizzle &amp; PostgreSQL."></a>
 <a href="https://github.com/RIDAM7/SERP-Reader"><img src="assets/work-serp-reader.svg" width="100%" alt="SERP Reader, Open source. A results page, saved as data. A free Chrome extension, made to study which sources Google’s AI Overviews cite. It was built to run the Elivate SEO study. It keeps the organic results, People Also Ask and the AI Overview’s citations as structured data, stored in the browser. The interesting bugs were all in its parser. Chrome and Node disagree about how to read a malformed hostname, and no test could catch it, because the tests run on Node. . Fork it at github.com/RIDAM7/SERP-Reader. Set in TypeScript &amp; esbuild."></a>
 
-<img src="assets/commits.svg" width="100%" alt="A year on GitHub: 3,235 contributions and 225 active days in the last 12 months.">
+<img src="assets/commits.svg" width="100%" alt="A year on GitHub: 3,337 contributions and 226 active days in the last 12 months.">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/head-experience-dark.svg">
