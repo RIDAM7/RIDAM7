@@ -292,12 +292,13 @@ async function front() {
   );
 
   // Plate I and the coffee desk: the right-hand column. The plate is the
-  // site's own, captured once finished (paper/plate-i.webp): the painted hand
-  // and the dotted arm, whose fingertip has warmed to the pencil's red.
+  // site's own, captured once finished (paper/plate-i.webp, 640 × 291, from
+  // a 470px column at 2x): the painted hand, and Adam's arm from the same
+  // fresco set in type, whose fingertip has warmed to the pencil's red.
   const sideW = 320;
   const side = box(
     { flexDirection: 'column', width: sideW, marginLeft: 22, marginTop: -170 },
-    h('img', { src: TEX.plate, width: sideW, height: Math.round(sideW * (270 / 646)) }),
+    h('img', { src: TEX.plate, width: sideW, height: Math.round(sideW * (291 / 640)) }),
     box(
       { alignItems: 'flex-start', marginTop: 12 },
       text({ ...gothic(18, RED, { letterSpacing: '0.06em' }), marginRight: 9, marginTop: 3, flexShrink: 0 }, F.plate1.mark),
@@ -757,38 +758,51 @@ async function puzzle() {
 
   const total = g.clues.length;
   const half = (g.cols * s - 34) / 2;
+  /* A sheet torn out of the paper, both ends ragged, as ReachFor.astro now
+     tears it. Here past the ragged line is nothing at all, so GitHub's own
+     page shows there, light or dark: the paper is a strip of its colour with
+     a ragged top, the textured sheet, and a strip with a ragged foot. */
+  const TEAR = 14;
+  // Flat, so each is the colour the textured sheet comes out where it meets
+  // it (measured from a render): darker at the foot, where the vignette is.
+  const torn = (seed, from, fill) => svg(W, TEAR, '0 0 1000 12', { flexShrink: 0 }, h('path', { d: tearPath(seed, from), fill }));
   return render(
     'puzzle.svg',
     box(
-      { width: W, flexDirection: 'column', padding: `52px ${PAD}px 64px`, ...paperGround() },
+      { width: W, flexDirection: 'column' },
+      torn(1922, 'bottom', '#dacfb3'),
       box(
-        { justifyContent: 'space-between', ...caps(15, INK, { letterSpacing: '0.2em' }) },
-        text({}, 'Puzzles & pastimes'),
-        text({}, `The editor’s crossword · ${total} answers · solved in pencil`),
-      ),
-      box({ height: 3, background: INK, marginTop: 14 }),
-      box({ height: 1, background: INK, marginTop: 3 }),
-      box(
-        { alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 34 },
-        text(gothic(118, INK, { lineHeight: 0.9 }), 'What I reach for'),
-        text({ ...old(21, INK_SOFT, true), lineHeight: 1.45, width: 420, marginBottom: 6 }, 'Every answer is something I build with, and every clue comes from the work.'),
-      ),
-      // The grid with two short desks under it, the longest desk beside it,
-      // and the other two across the foot of the page.
-      box(
-        { marginTop: 46, justifyContent: 'space-between', alignItems: 'flex-start' },
+        { width: W, flexDirection: 'column', padding: `38px ${PAD}px 50px`, ...paperGround() },
         box(
-          { flexDirection: 'column' },
-          gridBox,
-          box({ marginTop: 46, justifyContent: 'space-between', width: g.cols * s }, deskBlock('design', half), deskBlock('marketing', half)),
+          { justifyContent: 'space-between', ...caps(15, INK, { letterSpacing: '0.2em' }) },
+          text({}, 'Puzzles & pastimes'),
+          text({}, `The editor’s crossword · ${total} answers · solved in pencil`),
         ),
-        deskBlock('backend', 1152 - g.cols * s - 54),
+        box({ height: 3, background: INK, marginTop: 14 }),
+        box({ height: 1, background: INK, marginTop: 3 }),
+        box(
+          { alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 34 },
+          text(gothic(118, INK, { lineHeight: 0.9 }), 'What I reach for'),
+          text({ ...old(21, INK_SOFT, true), lineHeight: 1.45, width: 420, marginBottom: 6 }, 'Every answer is something I build with, and every clue comes from the work.'),
+        ),
+        // The grid with two short desks under it, the longest desk beside it,
+        // and the other two across the foot of the page.
+        box(
+          { marginTop: 46, justifyContent: 'space-between', alignItems: 'flex-start' },
+          box(
+            { flexDirection: 'column' },
+            gridBox,
+            box({ marginTop: 46, justifyContent: 'space-between', width: g.cols * s }, deskBlock('design', half), deskBlock('marketing', half)),
+          ),
+          deskBlock('backend', 1152 - g.cols * s - 54),
+        ),
+        box(
+          { marginTop: 48, justifyContent: 'space-between', alignItems: 'flex-start' },
+          deskBlock('ai', 552),
+          deskBlock('devops', 552),
+        ),
       ),
-      box(
-        { marginTop: 48, justifyContent: 'space-between', alignItems: 'flex-start' },
-        deskBlock('ai', 552),
-        deskBlock('devops', 552),
-      ),
+      torn(1955, 'top', '#d0c4a7'),
     ),
   );
 }
@@ -984,7 +998,7 @@ function readme(c) {
 
 <p align="center">${links}</p>
 
-<a href="${data.site}/#work"><img src="assets/grind.svg" width="100%" alt="${esc(grindAlt)}"></a>
+<a href="${data.site}/work"><img src="assets/grind.svg" width="100%" alt="${esc(grindAlt)}"></a>
 ${spreads}
 
 <img src="assets/commits.svg" width="100%" alt="A year on GitHub: ${fmt(c.total)} contributions and ${c.activeDays} active days in the last 12 months.">
